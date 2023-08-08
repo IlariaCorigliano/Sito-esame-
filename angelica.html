@@ -13,13 +13,21 @@
 <body>
     <header>
         <nav>
-            <a href="/index.html">Parco delle Kentie</a>
+            <a href="index.html">Parco delle Kentie</a>
             <div>
                 <ul>
-                    <li><a href="index.html"> home</a></li>
-                    <li><a href="eventi.html"> eventi</a></li>
-                    <li><a href="curiosità.html"> curiosità</a></li>
-                    <li><a href=""> dove siamo</a></li>
+                    <li>
+                        <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">HOME</a>
+                        <div class="dropdown-content">
+                         <a href="parco.html">PARCO</a>
+                         <a href="teatro.html">TEATRO</a>
+                         <a href="museo.html">MUSEO</a>
+                         <a href="giardino.html">GIARDINO</a>
+                        </div>
+                    </li>
+                    <li><a href="eventi.html">EVENTI</a></li>
+                    <li><a href="curiosità.html">CURIOSITÀ</a></li>
+                    <li><a href="">DOVE SIAMO</a></li>
                     <li><img src="./immagini/loupe-svgrepo-com.svg" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
             </div>
