@@ -13,12 +13,20 @@
 <body>
     <header>
         <nav>
-            <a href="/index.html">Parco delle Kentie</a>
+            <a href="index.html">Parco delle Kentie</a>
             <div>
                 <ul>
-                    <li><a href=""> home</a></li>
-                    <li><a href="/eventi.html"> eventi</a></li>
-                    <li><a href=""> curiosità</a></li>
+                    <li>
+                        <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">HOME</a>
+                        <div class="dropdown-content">
+                         <a href="parco.html">PARCO</a>
+                         <a href="teatro.html">TEATRO</a>
+                         <a href="museo.html">MUSEO</a>
+                         <a href="giardino.html">GIARDINO</a>
+                        </div>
+                    </li>
+                    <li><a href="eventi.html"> eventi</a></li>
+                    <li><a href="curiosità.html"> curiosità</a></li>
                     <li><a href=""> dove siamo</a></li>
                     <li><img src="./immagini/loupe-svgrepo-com.svg" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
@@ -34,17 +42,17 @@
             <div class="grid">
                 <div class="card">
                     <div class="img-fluid">
-                        <a href="#"><img src="./immagini/WhatsApp Image 2023-06-26 at 11.56.24.jpeg" width="384px" height="381px"></a>
+                        <a href="teatro.html"><img src="./immagini/WhatsApp Image 2023-06-26 at 11.56.24.jpeg" width="384px" height="381px"></a>
                         <p>Parco</p>
                     </div>
-                    <a href="parco.html"> Il teatro</a>
+                    <a href="teatro.html"> Il teatro</a>
                 </div>
                 <div class="card">
                     <div class="img-fluid">
-                        <a href="#"><img src="./immagini/qui-nguyen-0G01UI1MQhg-unsplash.jpg" width="384px" height="381px"></a>
+                        <a href="coralli.html"><img src="./immagini/qui-nguyen-0G01UI1MQhg-unsplash.jpg" width="384px" height="381px"></a>
                         <p>Museo</p>
                     </div>
-                    <a href="#">I coralli</a> 
+                    <a href="coralli.html">I coralli</a> 
                 </div>
                 <div class="card">
                     <div class="img-fluid">
@@ -82,6 +90,7 @@
             <div class="img-fluid">
                 <img src="./immagini/mappa parco.png">
             </div>
+            <p>Scarica la mappa</p>
         </section>
 
         <section>
@@ -126,16 +135,16 @@
             <div class="grid-eventi">
                 <div class="card">
                     <div class="img-fluid">
-                        <a href="#"><img src="./angelica.jpg" width="251px" height="384px"></a>
+                        <a href="angelica.html"><img src="./angelica.jpg" width="251px" height="384px"></a>
                     </div>
-                    <p>Angelica - Silvana La Spina</p>
+                    <a href="angelica.html">Angelica - Silvana La Spina</a>
                     <p>26 febbraio 2023</p>
                 </div>
                 <div class="card">
                     <div class="img-fluid">
-                        <a href="#"><img src="./immagini/il-mistero-di-anna.jpg" width="251px" height="384px"></a>
+                        <a href="anna.html"><img src="./immagini/il-mistero-di-anna.jpg" width="251px" height="384px"></a>
                     </div>
-                    <p>Il mistero di Anna - Simona Lo Iacono</p>
+                    <a href="anna.html">Il mistero di Anna - Simona Lo Iacono</a>
                     <p>27 novembre 2022</p>
                 </div>
             </div>
@@ -144,7 +153,7 @@
     <footer>
         <div class="grid">
             <div>
-                <a href="/index.html">Parco delle Kentie</a>
+                <a href="index.html">Parco delle Kentie</a>
             </div>
             <div>
                 <p>Via Mario Carbonaro</p>
