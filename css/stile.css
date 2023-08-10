@@ -14,3 +14,44 @@ fieldset{border-width:0; padding:0; margin:0;}
     --bgcolor: hsl(104,54,35,100%);
 
 }
+
+body {
+    margin: 0 0;
+    background-color: #f5f5f5;
+}
+
+main{
+    padding: 5%;
+    font-family: "Outfit";
+
+}
+
+main section.griglia {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Outfit";
+    gap: 23px;
+    
+    align-items: center;
+}
+
+.grid-eventi {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 200px;
+}
+
+
+main div.mappa img{
+    
+    justify-content: center;
+    width: 100%;
+}
+
+
+header div.hero img{
+width: 100%;
+}
