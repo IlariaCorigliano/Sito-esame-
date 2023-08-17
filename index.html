@@ -15,37 +15,43 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Parco delle Kentie</a>
+            <div class="marchio">
+                <a href="index.html">Parco delle Kentie</a>
+            </div>
+
             <div>
                 <ul>
                     <li>
                         <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">HOME</a>
                         <div class="dropdown-content">
-                         <a href="parco.html">PARCO</a>
-                         <a href="teatro.html">TEATRO</a>
-                         <a href="museo.html">MUSEO</a>
-                         <a href="giardino.html">GIARDINO</a>
+                         <a href="parco.html">Parco</a>
+                         <a href="teatro.html">Teatro</a>
+                         <a href="museo.html">Museo</a>
+                         <a href="giardino.html">Giardino</a>
                         </div>
                     </li>
                     <li><a href="eventi.html"> EVENTI</a></li>
                     <li><a href="curiosità.html"> CURIOSITÀ</a></li>
                     <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
-                    <li><img src="./immagini/loupe-svgrepo-com.svg" alt="cerca"  width="23px" height="23px";> </li>
+                    <li><img src="./immagini/loupe.png" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
             </div>
         </nav>
-        <heroimage>
-            <img src="./immagini/MicrosoftTeams-image copia.png" alt="cerca"  width="1440px" height="442px";>
-            <h2>PARCO COMUNALE DELLE KENTIE</h2>
-        </heroimage>
+        <section class="heroimage">
+            <div class="text">
+                <h2>PARCO COMUNALE DELLE KENTIE</h2>
+            </div>
+            <div class="immagine">
+                <img src="immagini/MicrosoftTeams-image copia.png" alt="cerca">
+            </div>
+        </section>
     </header>
     <main>
         <section>
             <div class="grid">
                 <div class="card">
                     <div class="img-fluid">
-                        <a href="teatro.html"><img src="./immagini/WhatsApp Image 2023-06-26 at 11.56.24.jpeg" width="384px" height="381px"></a>
-                        <p>Parco</p>
+                        <a href="teatro.html"><img src="./immagini/WhatsApp Image 2023-06-26 at 11.56.24.jpeg" width="384px" height="381px"><span>Parco</span></a>
                     </div>
                     <a href="teatro.html"> Il teatro</a>
                 </div>
@@ -135,14 +141,14 @@
         <section>
             <a href="eventi.html">Eventi</a>
             <div class="grid-eventi">
-                <div class="card">
+                <div class="card-eventi">
                     <div class="img-fluid">
                         <a href="angelica.html"><img src="./angelica.jpg" width="251px" height="384px"></a>
                     </div>
                     <a href="angelica.html">Angelica - Silvana La Spina</a>
                     <p>26 febbraio 2023</p>
                 </div>
-                <div class="card">
+                <div class="card-eventi">
                     <div class="img-fluid">
                         <a href="anna.html"><img src="./immagini/il-mistero-di-anna.jpg" width="251px" height="384px"></a>
                     </div>
@@ -154,7 +160,7 @@
     </main>
     <footer>
         <div class="grid">
-            <div>
+            <div class="marchio">
                 <a href="index.html">Parco delle Kentie</a>
             </div>
             <div>
