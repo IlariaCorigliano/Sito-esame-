@@ -11,6 +11,40 @@ cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
 
 :root {
-    --bgcolor: hsl(104,54,35,100%);
+    --bgcolor: hsl(104, 54%, 35%);
+    --bgcolorhover: hsl(104, 54%, 35%, 50%);
 
+}
+
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    height: 7rem;
+    width: 7rem;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    padding: 0.25rem;
+    margin-top: 0;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
+    background-color: var(--bgcolorhover);
+    display: block;
+}
+
+.dropdown:hover + .dropdown-content, .dropdown + .dropdown-content:hover, .dropdown.check + .dropdown-content {
+    display: flex !important;
 }
