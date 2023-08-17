@@ -48,3 +48,32 @@ fieldset{border-width:0; padding:0; margin:0;}
 .dropdown:hover + .dropdown-content, .dropdown + .dropdown-content:hover, .dropdown.check + .dropdown-content {
     display: flex !important;
 }
+
+
+.grid {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+}
+
+.card {
+    width: 373px;
+    height: 396px;
+    position: relative;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 25px;
+    margin: 24px;
+}
+
+.card h2 a{
+    color: #ffffff;
+    font-size: 24px;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 32px;
+    padding: 24px ;
+    gap: 10px;
+}
