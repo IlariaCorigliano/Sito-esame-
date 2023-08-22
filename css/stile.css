@@ -117,9 +117,15 @@ nav ul {
     padding: 0 16px;
 }
 
-.heroimage .text2 {
+.heroimage h2 {
     position: absolute;
+    color: white;
     text-align: center;
+    z-index: 100;
+    margin: 0;
+    bottom: 20px;
+    font-size: 48px;
+    font-family: 'Outfit', bold;
 }
 
 .contenitore {
