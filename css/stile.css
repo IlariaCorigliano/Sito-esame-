@@ -18,10 +18,10 @@ fieldset{border-width:0; padding:0; margin:0;}
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
+    align-items: center;
     max-width: 1900px;
     font-size: 16px;
-    align-items: center;
     font-family: 'Inter', sans-serif;
     background-color: hsl(0, 0%, 96%);
 }
@@ -251,6 +251,11 @@ nav ul {
     font-size: 1.5rem;
     text-align: center;
     padding: 16px;
+    font-family: 'Outfit';
+}
+
+.contenitore h1:hover {
+    color: hsl(205, 56%, 38%);
 }
 
 .contenitore div {
@@ -258,9 +263,8 @@ nav ul {
     border-radius: 10px;
 }
 
-.mappa h2 {
+.mappa h3 {
     font-family: 'Outfit', semibold;
-    color: var(--textcolor2);
     font-size: 24px;
 }
 
@@ -271,10 +275,18 @@ nav ul {
     background-color: hsl(75, 84%, 42%);
     border-radius: 8px;
     padding: 4px;
+    display:block;
+    margin: 24px auto;
 }
 
 .mappa p:hover {
     background-color: var(--bgcolor);
+}
+
+.mappa img {
+    display:block;
+    margin: 24px auto;
+
 }
 
 .eventi .grid {
