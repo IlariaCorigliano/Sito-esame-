@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     max-width: 1900px;
     font-size: 16px;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     background-color: hsl(0, 0%, 96%);
 }
@@ -321,7 +322,18 @@ nav ul {
     font-size: 16px;
     font-weight: bold;
 }
-
+.testo {
+    margin: 40px auto;
+    justify-content: center;
+}
+.testo p {
+    max-width: 900px;
+    color: #161616;
+    margin: 24px auto ;
+    font-size: 12pt;
+    line-height: 1.5; 
+    font-family: 'Inter', sans-serif;
+}
 .card-palme h2 a{
     color: #ffffff;
     font-size: 24px;
