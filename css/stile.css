@@ -355,16 +355,6 @@ nav ul {
     line-height: 1.5; 
     font-family: 'Inter', sans-serif;
 }
-.card-palme h2 a{
-    color: #ffffff;
-    font-size: 24px;
-    align-items: center;
-    overflow: hidden;
-    position: absolute;
-    bottom: 32px;
-    padding: 24px ;
-    gap: 10px;
-}
 
 footer .grid {
     margin: 40px auto;
