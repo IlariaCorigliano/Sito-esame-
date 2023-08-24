@@ -356,6 +356,33 @@ nav ul {
     font-family: 'Inter', sans-serif;
 }
 
+.grid-palme{
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.card-palme {
+    min-height: 400px;
+    position: relative;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px;
+    margin: 24px;
+}
+
+.card-palme h2 a{
+    color: var(--textcolor);
+    font-size: 24px;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 32px;
+    padding: 10px ;
+    gap: 10px;
+}
+
 footer .grid {
     margin: 40px auto;
     display: grid;
