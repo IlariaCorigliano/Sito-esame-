@@ -9,27 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stile.css">
+    <script src="script.js" defer></script>
     <title>parco-kentie</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Parco delle Kentie</a>
+            <div class="marchio">
+                <a href="index.html">Parco delle Kentie</a>
+            </div>
+
             <div>
                 <ul>
                     <li>
                         <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">HOME</a>
                         <div class="dropdown-content">
-                         <a href="parco.html">PARCO</a>
-                         <a href="teatro.html">TEATRO</a>
-                         <a href="museo.html">MUSEO</a>
-                         <a href="giardino.html">GIARDINO</a>
+                         <a href="parco.html">Parco</a>
+                         <a href="teatro.html">Teatro</a>
+                         <a href="museo.html">Museo</a>
+                         <a href="giardino.html">Giardino</a>
                         </div>
                     </li>
-                    <li><a href="eventi.html"> eventi</a></li>
-                    <li><a href="curiosità.html"> curiosità</a></li>
-                    <li><a href="dovesiamo.html"> dove siamo</a></li>
-                    <li><img src="./immagini/loupe-svgrepo-com.svg" alt="cerca"  width="23px" height="23px";> </li>
+                    <li><a href="eventi.html"> EVENTI</a></li>
+                    <li><a href="curiosità.html"> CURIOSITÀ</a></li>
+                    <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
+                    <li><img src="./immagini/loupe.png" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
             </div>
         </nav>
@@ -82,8 +86,66 @@
                 </div>    
             </div>
         </section>
+    </header>
+    <main>
+        <section class="contenitore">
+            <div class="badge1" data-label="Parco">
+                <div>
+                    <a href="teatro.html">
+                        <img src="./immagini/WhatsApp Image 2023-06-26 at 11.56.24.jpeg" loading="teatro" width="384px" height="381px">
+                        <h1>Il teatro</h1>
+                    </a>
+                </div>
+            </div>
 
-        <section>
+            <div class="badge2" data-label="Museo">
+                <div>
+                    <a href="coralli.html">
+                        <img src="./immagini/qui-nguyen-0G01UI1MQhg-unsplash.jpg" loading="coralli" width="384px" height="381px">
+                        <h1>I coralli</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="badge3" data-label="Curiosità">
+                <div>
+                    <a href="lattecocco.html">
+                        <img src="./immagini/tijana-drndarski-eDj-bODzFx8-unsplash.jpg" loading="latte di cocco" width="384px" height="381px">
+                        <h1>Latte di cocco</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="badge4" data-label="Giardino">
+                <div>
+                    <a href="palmaolio.html">
+                        <img src="./immagini/palma da olio.webp" loading="palma da olio" width="384px" height="381px">
+                        <h1>Palma da olio</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="badge3" data-label="Curiosità">
+                <div>
+                    <a href="Caramelle.html">
+                        <img src="./immagini/glen-carrie-xBTnaTgleQE-unsplash.jpg" loading="caramelle alla salvia" width="384px" height="381px">
+                        <h1>Caramelle alla salvia</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="badge2" data-label="Museo">
+                <div>
+                    <a href="fossili.html">
+                        <img src="./immagini/gabi-scott-c9y23cBO2UM-unsplash.jpg" loading="fossili" width="384px" height="381px">
+                        <h1>I fossili</h1>
+                    </a>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="mappa">
             <h3>La mappa</h3>
             <div class="mappa">
                 <img src="./immagini/mappa parco.png">
@@ -128,32 +190,27 @@
             </div>
         </section>
 
-        <section>
+        <section class="eventi">
             <a href="eventi.html">Eventi</a>
             <div class="grid-eventi">
                 <div class="card">
                     <div class="img-event">
                         <a href="angelica.html"><img src="./immagini/angelica.jpg" width="251px" height="384px"></a>
                     </div>
-                    <a href="angelica.html">Angelica - Silvana La Spina</a>
-                    <p>26 febbraio 2023</p>
                 </div>
                 <div class="card">
                     <div class="img-event">
                         <a href="anna.html"><img src="./immagini/il-mistero-di-anna.jpg" width="251px" height="384px"></a>
                     </div>
-                    <a href="anna.html">Il mistero di Anna - Simona Lo Iacono</a>
-                    <p>27 novembre 2022</p>
-                </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="grid">
-            <div>
+            <div class="marchio">
                 <a href="index.html">Parco delle Kentie</a>
             </div>
-            <div>
+            <div class="info">
                 <p>Via Mario Carbonaro</p>
                 <p>95018 Riposto CT</p>
                 <p>Tel e Fax:</p>
@@ -161,7 +218,7 @@
                 <p>E-mail:</p>
                 <a href="tecnologico@comune.riposto.ct.it">tecnologico@comune.riposto.ct.it</a>
             </div>
-            <div>
+            <div class="info">
                 <p class="bold">Orari</p>
                 <p>Lunedì - Venerdì</p>
                 <p>9:00 - 13:00</p>
