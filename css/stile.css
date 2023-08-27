@@ -27,7 +27,6 @@ body {
 }
 
 main {
-    padding: 0 1rem;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -164,12 +163,10 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
-    z-index: 1;
 }
 
 .contenitore div {
     position: relative;
-    z-index: 1;
 }
 
 .badge1 {
@@ -370,7 +367,7 @@ nav ul {
     background-position: center; 
     border-radius: 10px;
     margin: 24px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 70%, rgba(0, 0, 0, 0.70) 100%),lightgray 50%;
+    box-shadow: inset 5px -300px 300px -300px rgba(0, 0, 0, 1);
    
 }
 
@@ -389,11 +386,14 @@ nav ul {
 footer .grid {
     margin: 40px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(max(200px, 33%), 1fr));
     gap: 32px;
-    background-color: var(--bgcolor);
     padding: 56px;
     
+}
+
+footer{
+    background-color: var(--bgcolor);
 }
 
 .info {
@@ -407,7 +407,6 @@ body {
 }
 
 main{
-    padding: 5%;
     font-family: "Outfit";
 
 }
@@ -418,7 +417,6 @@ main section.griglia {
     grid-template-columns: 1fr 1fr 1fr;
     font-family: "Outfit";
     gap: 23px;
-    
     align-items: center;
 }
 
@@ -443,25 +441,27 @@ width: 100%;
 }
 
 .approfondimenti{
-    background-color: #214B69;
     margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 32px;
-    
+}
+
+.bg-blue{
+    background-color: #214B69;
+}
+
+.approfondimenti h3{
+    color: #ffffff;
 }
 
 .approfondimenti .card{
     font-size: 1.5rem;
     text-align: center;
     font-family: 'Outfit';
-    
+
 }
 
-.approfondimenti div{
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: block;
+.container{
+    width: 80%;
+    max-width: 1200px;
 }
 
 
