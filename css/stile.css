@@ -258,6 +258,8 @@ nav ul {
 .contenitore div {
     background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .mappa h3 {
@@ -425,4 +427,35 @@ footer a:hover {
     font-size: 24px;
 }
 
+.gridpalme{
+    background-color: #51A372;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+
+.palmeutili{
+    color: #ffffff;
+    max-width: 1200px;
+    margin: auto; 
+}
+
+.palmeutili h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.palmeutili a:hover{
+    font-weight: bold;
+    color:#214B69
+}
+
+.testo h3 {
+    max-width: 900px;
+    color: #161616;
+    margin: 24px auto ;
+    font-size: 18pt; 
+    font-family: 'Outfit', sans-serif;
+    color: #214B69;
+    font-weight: bold;
+}
 

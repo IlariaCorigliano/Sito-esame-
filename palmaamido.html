@@ -13,36 +13,43 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Parco delle Kentie</a>
+            <div class="marchio">
+                <a href="index.html">Parco delle Kentie</a>
+            </div>
             <div>
                 <ul>
                     <li>
                         <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">HOME</a>
                         <div class="dropdown-content">
-                         <a href="parco.html">PARCO</a>
-                         <a href="teatro.html">TEATRO</a>
-                         <a href="museo.html">MUSEO</a>
-                         <a href="giardino.html">GIARDINO</a>
+                         <a href="parco.html">Parco</a>
+                         <a href="teatro.html">Teatro</a>
+                         <a href="museo.html">Museo</a>
+                         <a href="giardino.html">Giardino</a>
                         </div>
                     </li>
-                    <li><a href="eventi.html"> eventi</a></li>
-                    <li><a href="curiosità.html"> curiosità</a></li>
-                    <li><a href="dovesiamo.html"> dove siamo</a></li>
-                    <li><img src="./immagini/loupe-svgrepo-com.svg" alt="cerca"  width="23px" height="23px";> </li>
+                    <li><a href="eventi.html"> EVENTI</a></li>
+                    <li><a href="curiosità.html"> CURIOSITÀ</a></li>
+                    <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
+                    <li><img src="./immagini/loupe.png" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
             </div>
         </nav>
-        <div>
-           <h1>PALMA DA AMIDO</h1> 
-            <a href="giardino.html">Giardino</a>/
-            <a href="palme-utili.html">Palme utili</a>/
-            <a href="palmaamido.html">Palma da amido</a>
-        </div>
-        <div class="img-fluid">
-            <img src="./immagini/Datteri.jpg" alt="immagine palma"  width="617px" height="526px";>
-        </div>   
+        <section>
+            <div class="gridpalme">
+                <div class="palmeutili">
+                    <h1>PALMA DA AMIDO</h1> 
+                    <a href="giardino.html">Giardino</a>/
+                    <a href="palme-utili.html">Palme utili</a>/
+                    <a href="palmaamido.html">Palma da amido</a>
+                </div>
+                <div class="img-fluid">
+                    <img src="./immagini/amido.png" alt="immagine palma"  width="617px" height="526px";>
+                </div>
+            </div>
+        </section>   
     </header>
-        <div class="testo container">
+    <section>
+        <div class="testo">
             <h3>Habitat</h3>
             <p>E’ una palma originaria delle isole Molucche, ampiamente distribuita in tutto il sud-est Asiatico e nelle isole del Pacifico. </p>
             <p> Tipica di ambienti tropicali umidi e paludosi, ha una crescita molto rapida ed è monocarpica, cioè dopo la fioritura, che avviene intorno al quindicesimo anno di età muore. </p>
@@ -51,6 +58,7 @@
             <p>Per ottenere il sago le piante vengono abbattute all’inizio della fioritura, quando nel tronco si è accumulata la massima quantità di amido. Il tronco si taglia in pezzi di 1-2 m e viene privato della durissima parte corticale. Il midollo estratto si lava in acqua e la farina ottenuta viene setacciata e fatta essiccare. </p>
             <p>Ogni pianta può produrre da 100 a 300 kg di amido, detto anche sago, apprezzato come alimento e utilizzato anche come appretto nell’industria tessile. </p>
         </div>
+    </section>
         <section>
             <h3>Prodotti derivati</h3>
             <div class="grid">
@@ -73,7 +81,7 @@
                 <div class="img-carosello">
                     <img src="./immagini/palma cera.webp" width="373px" height="396px";>
                     <p>Palma da cera</p>
-                </div>>
+                </div>
                 </div>
                 <div class="img-carosello">
                     <img src="./immagini/palma da olio.webp" width="373px" height="396px";>
