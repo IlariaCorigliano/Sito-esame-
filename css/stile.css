@@ -391,13 +391,8 @@ nav ul {
     align-items: center;
     overflow: hidden;
     position: absolute;
-<<<<<<< HEAD
     bottom: 20px;
     padding: 10px ;
-=======
-    bottom: 32px;
-    padding: 24px ;
->>>>>>> b3ae73093406c64301e56ad5e00329ad4d8480df
     gap: 10px;
     font-family: 'Outfit', semibold
     
