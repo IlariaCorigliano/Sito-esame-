@@ -384,7 +384,7 @@ nav ul {
     align-items: center;
     overflow: hidden;
     position: absolute;
-    bottom: 32px;
+    bottom: 20px;
     padding: 10px ;
     gap: 10px;
     
@@ -459,3 +459,29 @@ footer a:hover {
     font-weight: bold;
 }
 
+.bg-green {
+    background-color: #51A372;
+    width: 1440px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.subtitle{
+    font-size: 18pt; 
+    font-family: 'Outfit', sans-serif;
+    color: #214B69;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.card-prodotti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-prodotti p{
+    font-weight: bold;
+}
