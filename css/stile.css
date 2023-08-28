@@ -301,6 +301,11 @@ nav ul {
     z-index: 1;
 }
 
+.eventi h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+}
+
 .eventi .card {
     width: 100%;
 }
@@ -400,24 +405,7 @@ footer{
     font-family: 'Inter',  sans-serif;
 }
 
-.grid-eventi {
-    margin: 40px auto;
-    display: flex;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px 200px;
-}
 
-
-main div.mappa img{
-    justify-content: center;
-    width: 100%;
-}
-
-
-header div.hero img{
-width: 100%;
-}
 
 .approfondimenti{
     background-color: #214B69;
