@@ -389,22 +389,31 @@ nav ul {
 }
 
 footer .grid {
-    margin: 40px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(max(200px, 33%), 1fr));
-    gap: 32px;
-    padding: 56px;
-    
-}
-
-footer{
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    padding: 48px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--bgcolor);
-}
-
-.info {
     font-family: 'Inter',  sans-serif;
+    
+  
 }
 
+footer h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer .info a {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--textcolor);
+}
 
 
 .approfondimenti{
