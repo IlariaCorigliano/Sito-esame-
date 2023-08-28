@@ -347,6 +347,7 @@ nav ul {
 }
 
 .testo {
+    max-width: 900px;
     margin: 40px auto;
     justify-content: center;
 }
@@ -355,9 +356,15 @@ nav ul {
     max-width: 900px;
     color: #161616;
     margin: 24px auto ;
-    font-size: 12pt;
     line-height: 1.5; 
     font-family: 'Inter', sans-serif;
+}
+
+.testo h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+
 }
 
 .grid-palme{
@@ -378,15 +385,21 @@ nav ul {
    
 }
 
-.card-gradient h2 a{
+.card-gradient h2 {
     color: var(--textcolor);
     font-size: 24px;
     align-items: center;
     overflow: hidden;
     position: absolute;
+<<<<<<< HEAD
     bottom: 20px;
     padding: 10px ;
+=======
+    bottom: 32px;
+    padding: 24px ;
+>>>>>>> b3ae73093406c64301e56ad5e00329ad4d8480df
     gap: 10px;
+    font-family: 'Outfit', semibold
     
 }
 
