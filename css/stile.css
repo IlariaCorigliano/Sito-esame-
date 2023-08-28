@@ -343,6 +343,7 @@ nav ul {
     margin: 40px auto;
     justify-content: center;
 }
+
 .testo p {
     max-width: 900px;
     color: #161616;
@@ -399,26 +400,6 @@ footer{
     font-family: 'Inter',  sans-serif;
 }
 
-
-body {
-    margin: 0 0;
-    background-color: #f5f5f5;
-}
-
-main{
-    font-family: "Outfit";
-
-}
-
-main section.griglia {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: "Outfit";
-    gap: 23px;
-    align-items: center;
-}
-
 .grid-eventi {
     margin: 40px auto;
     display: flex;
@@ -429,7 +410,6 @@ main section.griglia {
 
 
 main div.mappa img{
-    
     justify-content: center;
     width: 100%;
 }
@@ -440,27 +420,15 @@ width: 100%;
 }
 
 .approfondimenti{
-    margin: 40px auto;
-}
-
-.bg-blue{
     background-color: #214B69;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
 }
 
 .approfondimenti h3{
     color: #ffffff;
-}
-
-.approfondimenti .card{
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Outfit';
-
-}
-
-.container{
-    width: 80%;
-    max-width: 1200px;
 }
 
 

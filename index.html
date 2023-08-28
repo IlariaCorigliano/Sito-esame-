@@ -37,13 +37,18 @@
                 </ul>
             </div>
         </nav>
-   <div class="hero">
-    <div class="card" style="background-image: url('./immagini/MicrosoftTeams-image copia.png');"> 
-        <h1>PARCO COMUNALE DELLE KENTIE</h1>
-    </div>
+
+    <section class="heroimage">
+        <div class="text">
+            <h2>PARCO COMUNALE DELLE KENTIE</h2>
+        </div>
+        <div class="immagine">
+            <img src="immagini/MicrosoftTeams-image copia.png" alt="hero">
+        </div>
+    </section>
 </header> 
     <main>
-        <section class="contenitore container">
+        <section class="contenitore">
             <div class="badge1" data-label="Parco">
                 <div>
                     <a href="teatro.html">
@@ -138,19 +143,31 @@
                 <div class="dot"></div>
             </div>
         </section>
+        <section class="eventi">
 
-        <section class="eventi container">
-            <a href="eventi.html">Eventi</a>
-            <div class="grid-eventi">
-                <div class="card">
-                    <div class="img-event">
-                        <a href="angelica.html"><img src="./immagini/angelica.jpg" width="251px" height="384px"></a>
+            <div class="grid">
+                <div class="card" data-label="Presentazione libro">
+                    <div>
+                        <a href="angelica.html">
+                            <img src="./immagini/angelica.jpg" loading="angelica" width="251px" height="384px">
+                            <div class="testo-card">
+                                <h1>Angelica - Sivia La Spina</h1>
+                                <p>26 febbraio 2023</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img-event">
-                        <a href="anna.html"><img src="./immagini/il-mistero-di-anna.jpg" width="251px" height="384px"></a>
-                    </div>
+
+                <div class="card" data-label="Presentazione libro">
+                    <div>
+                        <a href="anna.html">
+                            <img src="./immagini/il-mistero-di-anna.jpg" loading="anna" width="251px" height="384px">
+                            <div class="testo-card">
+                                <h1>Il mistero di Anna - Simona Lo Iacono</h1>
+                                <p>27 novembre 2022</p>
+                            </div>
+                        </a>
+                    </div>    
                 </div>
             </div>
         </section>
