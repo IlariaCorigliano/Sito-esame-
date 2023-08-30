@@ -518,7 +518,27 @@ footer a:hover {
     font-weight: bold;
 }
 
-ol {
-    font-weight: bold;
-    list-style-type: lower-alpha
+.procedimento ol li {
+    list-style-type: decimal;
 }
+
+.procedimento ol li::marker{
+    font-weight: bold;
+    color: var(--textcolor2);
+}
+
+.ingredienti {
+    background-color: hsl(0, 1%, 84%);
+    margin: 40px auto;
+    padding: 40px;
+}
+.ingredienti ul li {
+    list-style: disc;
+}
+
+.ingredienti ul li::marker {
+    color: var(--textcolor2);
+}
+
+
+
