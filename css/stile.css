@@ -372,6 +372,28 @@ nav ul {
     gap: 20px;
 }
 
+.gridpalme {
+    background-color: #51A372;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+
+.palmeutili {
+    color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.palmeutili h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.palmeutili a:hover {
+    font-weight: bold;
+    color: #214B69;
+}
+
 .card-gradient{
     min-height: 400px;
     position: relative;
@@ -379,8 +401,7 @@ nav ul {
     background-position: center; 
     border-radius: 10px;
     margin: 24px;
-    box-shadow: inset 5px -300px 300px -300px rgba(0, 0, 0, 1);
-   
+    box-shadow: inset 5px -300px 300px -300px rgba(0, 0, 0, 1);  
 }
 
 .card-gradient h2 a {
@@ -495,4 +516,9 @@ footer a:hover {
 
 .card-prodotti p{
     font-weight: bold;
+}
+
+ol {
+    font-weight: bold;
+    list-style-type: lower-alpha
 }

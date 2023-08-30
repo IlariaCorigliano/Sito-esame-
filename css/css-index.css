@@ -1,0 +1,229 @@
+*,
+*::before,
+*::after{box-sizing:border-box;}a{text-decoration:none; color:inherit; cursor:pointer;}
+button{background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer;}
+figure{margin:0;}
+input::-moz-focus-inner {border:0; padding:0; margin:0;}
+ul, ol, dd{margin:0; padding:0; list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
+p{margin:0;}
+cite {font-style:normal;}
+fieldset{border-width:0; padding:0; margin:0;}
+
+:root {
+    --bgcolor: hsl(104, 54%, 35%);
+    --bgcolorhover: hsl(104, 54%, 35%, 50%);
+    --textcolor: hsl(0, 0%, 100%, 100%);
+    --textcolor2: hsl(205, 52%, 27%, 100%);
+}
+
+body {
+    margin: 0;
+    align-items: center;
+    max-width: 1900px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 96%);
+}
+
+main {
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+nav {
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    background-color: var(--bgcolor);   
+}
+
+.marchio {
+    font-size: 24px;
+    color: var(--textcolor);
+    font-family: 'Outfit', medium;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    white-space: nowrap;
+    font-size: 16px;
+    color: var(--textcolor);
+    font-family: 'Outfit', medium;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    height: 7rem;
+    width: 7rem;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    padding: 0.25rem;
+    margin-top: 0;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    font-family: 'Inter', regular;
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
+    background-color: var(--bgcolorhover);
+    display: block;
+}
+
+.dropdown:hover + .dropdown-content, .dropdown + .dropdown-content:hover, .dropdown.check + .dropdown-content {
+    display: flex !important;
+}
+
+.heroimage {
+    position: relative;
+}
+
+.heroimage img {
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroimage .immagine:before {
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+.heroimage h2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    z-index: 100;
+    margin: 0;
+    bottom: 20px;
+    font-size: 48px;
+    font-family: 'Outfit', bold;
+}
+
+.text {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+.badge1 {
+    width: 100%;
+}
+
+.badge1::after {
+    position: absolute;
+    content: attr(data-label);
+    bottom: 65px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    color: var(--textcolor);
+    background-color: hsl(205, 78%, 56%);
+}
+
+.badge2 {
+    width: 100%;
+}
+
+.badge2::after {
+    position: absolute;
+    content: attr(data-label);
+    bottom: 65px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    color: var(--textcolor);
+    background-color: hsl(0, 68%, 55%);
+}
+
+.badge3 {
+    width: 100%;
+}
+
+.badge3::after {
+    position: absolute;
+    content: attr(data-label);
+    bottom: 65px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    color: var(--textcolor);
+    background-color: hsl(266, 86%, 70%);
+}
+
+.badge4 {
+    width: 100%;
+}
+
+.badge4::after {
+    position: absolute;
+    content: attr(data-label);
+    bottom: 65px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    color: var(--textcolor);
+    background-color: hsl(86, 73%, 40%);
+}
+
+.sottotitoli h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+}
+
+.sottotitoli p {
+    font-family: 'Inter', regular ;
+    color: var(--textcolor);
+    max-width: 140px;
+    background-color: hsl(75, 84%, 42%);
+    border-radius: 8px;
+    padding: 4px;
+    display:block;
+    margin: 24px auto;
+}
+
+.mappa p:hover {
+    background-color: var(--bgcolor);
+}
+
+.mappa img {
+    display:block;
+    margin: 24px auto;
+}
