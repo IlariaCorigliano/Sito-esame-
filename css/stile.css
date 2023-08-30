@@ -27,8 +27,8 @@ body {
 }
 
 main {
-    max-width: 1300px;
     margin: 40px auto;
+    max-width: 1300px;
 }
 
 nav {
@@ -370,12 +370,15 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
+   
 }
 
 .gridpalme {
     background-color: #51A372;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    height: 575px;
+    
 }
 
 .palmeutili {
@@ -440,6 +443,7 @@ footer .info a {
 footer a:hover {
     font-weight: bold;
     color: var(--textcolor);
+    transition:.5s ease;
 }
 
 .approfondimenti{
@@ -493,7 +497,6 @@ footer a:hover {
 
 .bg-green {
     background-color: #51A372;
-    width: 1440px;
     height: 600px;
     margin-top: 100px;
 }
@@ -518,6 +521,10 @@ footer a:hover {
     font-weight: bold;
 }
 
+.card-prodotti img{
+    object-fit: cover;
+}
+
 .procedimento ol li {
     list-style-type: decimal;
 }
@@ -538,6 +545,19 @@ footer a:hover {
 
 .ingredienti ul li::marker {
     color: var(--textcolor2);
+}
+
+.jumbotron{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 100%; 
+}
+
+.jumbotron img{
+    position: absolute; 
+    bottom: 350px;
 }
 
 
