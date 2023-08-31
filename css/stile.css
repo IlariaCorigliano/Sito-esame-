@@ -27,8 +27,8 @@ body {
 }
 
 main {
-    max-width: 1300px;
     margin: 40px auto;
+    max-width: 1300px;
 }
 
 nav {
@@ -348,6 +348,7 @@ nav ul {
     max-width: 900px;
     margin: 40px auto;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .testo p {
@@ -370,12 +371,16 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
+   
 }
 
 .gridpalme {
     background-color: #51A372;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    height: 575px;
+    position: relative;
+    
 }
 
 .palmeutili {
@@ -440,6 +445,7 @@ footer .info a {
 footer a:hover {
     font-weight: bold;
     color: var(--textcolor);
+    transition:.5s ease;
 }
 
 .approfondimenti{
@@ -493,7 +499,6 @@ footer a:hover {
 
 .bg-green {
     background-color: #51A372;
-    width: 1440px;
     height: 600px;
     margin-top: 100px;
 }
@@ -516,6 +521,10 @@ footer a:hover {
 
 .card-prodotti p{
     font-weight: bold;
+}
+
+.card-prodotti img{
+    object-fit: cover;
 }
 
 .procedimento ol li {
