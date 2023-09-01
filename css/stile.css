@@ -617,6 +617,63 @@ section.eventi h2{
     font-weight: bold;
     margin-top: 5px;
 }
+div.arancione{
+    background-color: #F46324;
+   
+height: 450px;
+margin-bottom: 100px;
+display: flex;
+gap: 20px;
+color:var(--textcolor);
 
+}
+
+div.titoloarancione h1{
+font-size:48px;
+}
+
+div.titoloarancione{
+    margin-top: 100px;
+}
+
+div.giallo{
+    background-color: #F4BA24;
+   
+height: 450px;
+margin-bottom: 100px;
+display: flex;
+gap: 20px;
+color:var(--textcolor);
+
+}
+
+div.titologiallo h1{
+font-size:48px;
+}
+
+div.titologiallo{
+    margin-top: 100px;
+}
+
+
+
+div.verde{
+    background-color: #A1C15D;
+   
+height: 450px;
+margin-bottom: 100px;
+display: flex;
+gap: 20px;
+color:var(--textcolor);
+
+}
+
+div.titoloverde h1{
+font-size:48px;
+}
+
+div.titoloverde{
+    margin-top: 100px;
+}
 
 
