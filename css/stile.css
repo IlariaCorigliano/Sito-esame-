@@ -615,10 +615,19 @@ section.eventi h2{
     font-weight: bold;
 }
 
+.link{
+    font-size: 16px;
+    font-weight: lighter;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+
 .herobox-text-left a:hover {
     font-weight: bold;
     color: #214B69;
+    transition:.5s ease;
 }
+    
 
 .herobox-text-right h1 {
     font-size: 32px;
@@ -645,4 +654,15 @@ section.eventi h2{
     background-color: #51A372;
 }
 
+.yellow{
+    background-color: #F4BA24;
+}
+
+.green{
+    background-color: #A1C15D;
+}
+
+.forno img{
+    object-fit: cover;
+}
 
