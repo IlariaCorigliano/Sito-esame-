@@ -261,6 +261,7 @@ nav ul {
     background-color: #ffffff;
     border-radius: 10px;
     position: relative;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .sottotitoli h3 {
@@ -372,31 +373,6 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
    
-}
-
-.gridpalme {
-    background-color: #51A372;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    height: 575px;
-    position: relative;
-    
-}
-
-.palmeutili {
-    color: #ffffff;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.palmeutili h1 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.palmeutili a:hover {
-    font-weight: bold;
-    color: #214B69;
 }
 
 .card-gradient{
@@ -580,15 +556,15 @@ div.pannello h2{
 }
 
 div.gridange{
- display: flex;
- flex-direction: row; 
- gap: 56px;
+    display: flex;
+    flex-direction: row; 
+    gap: 56px;
 }
 
 div.gridange img{
-margin-left: 10px;
-margin-bottom: 5px;
-margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 
 }
 
@@ -599,81 +575,74 @@ div.gridange h1{
     font-weight: bold;
     
 }
-div.gridange p{
-    
+div.gridange p{   
     font-size: 16px;
-    font-weight: 600;
-    
-    
+    font-weight: 600;  
 }
+
 div.gridange h2{
     font-size: 16px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
+
 section.eventi h2{
     color:var(--textcolor2);
     font-size: 24px;
     font-weight: bold;
     margin-top: 5px;
 }
-div.arancione{
-    background-color: #F46324;
-   
-height: 450px;
-margin-bottom: 100px;
-display: flex;
-gap: 20px;
-color:var(--textcolor);
 
+
+.herobox-img img{
+    width: 617px;
+    height: 526px;
+    margin-top: 120px;
+    object-fit: cover;
 }
 
-div.titoloarancione h1{
-font-size:48px;
+.herobox-text-left{
+    color: #ffffff;
+    margin: auto 0 auto 40px;
 }
 
-div.titoloarancione{
-    margin-top: 100px;
+.herobox-text-right{
+    color: #ffffff;
+    margin: auto 40px auto 0;
 }
 
-div.giallo{
-    background-color: #F4BA24;
-   
-height: 450px;
-margin-bottom: 100px;
-display: flex;
-gap: 20px;
-color:var(--textcolor);
-
+.herobox-text-left h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
-div.titologiallo h1{
-font-size:48px;
+.herobox-text-left a:hover {
+    font-weight: bold;
+    color: #214B69;
 }
 
-div.titologiallo{
-    margin-top: 100px;
+.herobox-text-right h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
-
-
-div.verde{
-    background-color: #A1C15D;
-   
-height: 450px;
-margin-bottom: 100px;
-display: flex;
-gap: 20px;
-color:var(--textcolor);
-
+.herobox-text-right a:hover {
+    font-weight: bold;
+    color: #214B69;
 }
 
-div.titoloverde h1{
-font-size:48px;
+.orange{
+    background-color: #F59032;
 }
 
-div.titoloverde{
-    margin-top: 100px;
+.herobox {
+    display: flex;
+    height: 575px;
+    justify-content: center;
+    
+}
+
+.light-green{
+    background-color: #51A372;
 }
 
 
