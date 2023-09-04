@@ -621,6 +621,7 @@ section.eventi h2{
     font-weight: lighter;
     border-bottom: 1px solid white;
     margin-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .herobox-text-left a:hover {
@@ -640,16 +641,17 @@ section.eventi h2{
     color: #214B69;
 }
 
-.orange{
-    background-color: #F59032;
-}
-
 .herobox {
     display: flex;
     height: 575px;
     justify-content: center;
     
 }
+
+.orange{
+    background-color: #F59032;
+}
+
 
 .light-green{
     background-color: #51A372;
