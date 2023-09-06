@@ -18,6 +18,7 @@ fieldset{border-width:0; padding:0; margin:0;}
 }
 
 body {
+    justify-content: center;
     margin: 0;
     align-items: center;
     max-width: 1900px;
@@ -28,7 +29,7 @@ body {
 
 main {
     margin: 40px auto;
-    max-width: 1300px;
+    
 }
 
 nav {
@@ -669,42 +670,61 @@ section.eventi h2{
     object-fit: cover;
 }
 
-div.flex{
-    display: flex;
-    gap: 20%;
-    max-width: 900px;
-    margin: 40px auto;
+
+.flex div i {
+    color: #B5B910;
     justify-content: center;
-    margin-top: 100px;
-    gap: 20%;
-}
-div.griglia{
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    text-align: center;
-}
-
-div.marchietto{
-    margin-top: 10%;
-    text-align: center;
+    
 }
 
 
-.box{
-    background-color: #A1C15D;
-    height: 232px;
-    justify-content: center;
+.flex{
     display: flex;
-  
+    justify-content: center;
+    gap: 120px;
+    margin-top: 64px;
+    justify-content: center;
+    align-items: center;
+
+    
 }
-.box h1{
-    color:var(--textcolor);
-    z-index: 100;
+
+.flex div h3{
+    text-align: center;
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+    margin-bottom: 24px;
+    
+
+}
+
+.flex div div {
+    margin-bottom: 64px;
+    max-width: 600px;
+}
+
+.trasporti h1 {
+    color: white;
     text-align: center;
     font-size: 48px;
     font-family: 'Outfit', bold;
-    position: absolute;
-    margin-top: 5%;
+    margin: 0;
+    padding: 48px;
+    
+}
+
+.trasporti .bg {
+    background-color: #B5B910;
+    max-width: 1900px;
+}
+
+.indicazioni {
+    justify-content: center;
+    text-align: center;
+}
+
+.indicazioni h2 {
+    font-weight: bold;
+    color: var(--textcolor2);
 }
