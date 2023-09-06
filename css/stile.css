@@ -164,16 +164,13 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
-}
-
-.badge1 {
-    width: 100%;
+    
 }
 
 .badge1::after {
     position: absolute;
     content: attr(data-label);
-    bottom: 65px;
+    bottom: 66px;
     padding: 0.25rem;
     width: 8rem;
     z-index: 3;
@@ -181,16 +178,12 @@ nav ul {
     margin: 0;
     color: var(--textcolor);
     background-color: hsl(205, 78%, 56%);
-}
-
-.badge2 {
-    width: 100%;
-}
+} 
 
 .badge2::after {
     position: absolute;
     content: attr(data-label);
-    bottom: 65px;
+    bottom: 66px;
     padding: 0.25rem;
     width: 8rem;
     z-index: 3;
@@ -200,14 +193,10 @@ nav ul {
     background-color: hsl(0, 68%, 55%);
 }
 
-.badge3 {
-    width: 100%;
-}
-
 .badge3::after {
     position: absolute;
     content: attr(data-label);
-    bottom: 65px;
+    bottom: 66px;
     padding: 0.25rem;
     width: 8rem;
     z-index: 3;
@@ -217,14 +206,10 @@ nav ul {
     background-color: hsl(266, 86%, 70%);
 }
 
-.badge4 {
-    width: 100%;
-}
-
 .badge4::after {
     position: absolute;
     content: attr(data-label);
-    bottom: 65px;
+    bottom: 66px;
     padding: 0.25rem;
     width: 8rem;
     z-index: 3;
@@ -239,6 +224,7 @@ nav ul {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
 
 .contenitore h1 {
@@ -270,6 +256,7 @@ nav ul {
     font-family: 'Outfit', semibold;
     font-size: 24px;
     color: var(--textcolor2);
+    margin: 24px;
 }
 
 .sottotitoli p {
@@ -293,9 +280,9 @@ nav ul {
 }
 
 .eventi .grid {
-    margin: 16px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 700px;
     
 }
 
@@ -309,9 +296,6 @@ nav ul {
     font-size: 24px;
 }
 
-.eventi .card {
-    width: 100%;
-}
 
 .eventi .card::after {
     position: absolute;
@@ -349,9 +333,9 @@ nav ul {
 
 .testo {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 24px auto;
     justify-content: center;
-    margin-top: 100px;
+    
 }
 
 .testo p {
@@ -374,7 +358,7 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
-   
+    max-width: 1300px;
 }
 
 .card-gradient{
@@ -428,7 +412,8 @@ footer a:hover {
 
 .approfondimenti{
     background-color: #214B69;
-    padding: 40px;
+    padding: 72px 40px;
+
 }
 
 .approfondimenti h3{
@@ -437,9 +422,6 @@ footer a:hover {
     font-size: 24px;
 }
 
-.badge5 {
-    width: 100%;
-}
 
 .badge5::after {
     position: absolute;
@@ -452,10 +434,6 @@ footer a:hover {
     margin: 0;
     color: var(--textcolor);
     background-color: hsl(17, 93%, 49%);
-}
-
-.badge6 {
-    width: 100%;
 }
 
 .badge6::after {
@@ -471,9 +449,6 @@ footer a:hover {
     background-color: hsl(86, 73%, 40%);
 }
 
-.badge7 {
-    max-width: 400px;
-}
 
 .bg-green {
     background-color: #51A372;
@@ -671,22 +646,13 @@ section.eventi h2{
 }
 
 
-.flex div i {
-    color: #B5B910;
-    justify-content: center;
-    
-}
-
-
 .flex{
     display: flex;
-    justify-content: center;
     gap: 120px;
     margin-top: 64px;
     justify-content: center;
     align-items: center;
-
-    
+   
 }
 
 .flex div h3{
@@ -695,13 +661,11 @@ section.eventi h2{
     font-size: 24px;
     color: var(--textcolor2);
     margin-bottom: 24px;
-    
-
 }
 
 .flex div div {
     margin-bottom: 64px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .trasporti h1 {
@@ -711,12 +675,17 @@ section.eventi h2{
     font-family: 'Outfit', bold;
     margin: 0;
     padding: 48px;
-    
+    background-color: #B5B910;
+    margin-top: 64px;
 }
 
-.trasporti .bg {
-    background-color: #B5B910;
-    max-width: 1900px;
+.flex i {
+    margin-bottom: 24px;
+    color: #B5B910;
+}
+
+.trasporti .flex i {
+    transform: translate(220px);
 }
 
 .indicazioni {

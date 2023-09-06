@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stile.css">
-    <link rel="stylesheet" href="css/css-index.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>parco-kentie</title>
 </head>
 <body>
@@ -34,7 +34,6 @@
                     <li><a href="eventi.html"> EVENTI</a></li>
                     <li><a href="curiosità.html"> CURIOSITÀ</a></li>
                     <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
-                    <li><img src="./immagini/loupe.png" alt="cerca"  width="23px" height="23px";> </li>
                 </ul>
             </div>
         </nav>
@@ -118,36 +117,48 @@
             <div class="sottotitoli">
                 <h3>I funghi che trovi nel parco</h3>
             </div>
-                <div class="contenitore">
-                    <div class="card-gradient" style="background-image: url('./immagini/edson-ugalde-26OIe4PNBa8-unsplash.jpg');"> 
-                        <h2><a href="funghi.html">Amarita muscaria</a></h2>
+
+            <div class="container">
+
+                <i id="left" class="fa-solid fa-angle-left"></i>
+        
+                <div class="carosello">
+                    <div class="card-gradient" style="background-image: url('./immagini/edson-ugalde-26OIe4PNBa8-unsplash.jpg');" draggable="false"> 
+                        <h2>Amarita muscaria</h2>
                     </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/rob-NBixevK6JLU-unsplash.jpg');"> 
-                        <h2><a href="funghi.html">Pleurotus eryngii</a></h2>
+                    <div class="card-gradient" style="background-image: url('./immagini/rob-NBixevK6JLU-unsplash.jpg');" draggable="false" > 
+                        <h2>Pleurotus eryngii</h2>
                     </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/Helvella_leucopus.jpg');"> 
-                        <h2><a href="funghi.html">Helvella spadicea</a></h2>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/Helvella_leucopus.jpg');" draggable="false" > 
+                        <h2>Helvella spadicea</h2>
                     </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/Lactarius_pubescens_a1.jpg');"> 
-                        <h2><a href="funghi.html">Lactarius torminosus</a></h2>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/Lactarius_pubescens_a1.jpg');" draggable="false" > 
+                        <h2>Lactarius torminosus</h2>
                     </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/aleksey-oryshchenko-Ao5DUiwBX6s-unsplash.jpg');"> 
-                        <h2><a href="funghi.html">Hypholoma fasciuculare</a></h2>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/aleksey-oryshchenko-Ao5DUiwBX6s-unsplash.jpg');" draggable="false" > 
+                        <h2>Hypholoma fasciuculare</h2>
                     </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/rob-o3QdK-LTfRY-unsplash.jpg');"> 
-                        <h2><a href="funghi.html">Trametes pubescens</a></h2>
-                    </div>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/rob-o3QdK-LTfRY-unsplash.jpg');" draggable="false" > 
+                        <h2>Trametes pubescens</h2>
+                    </div>   
                 </div>
-            <div class="dots-carosello">
-                <!-- il dot si fa nel css, bg-color+border radius 50%+ width + height uguale dimensione -->
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+                
+                <i id="right" class="fa-solid fa-angle-right"></i>
+
             </div>
+
         </section>
         <section class="eventi">
-            <h3>Eventi</h3>
+
+            <div class="sottotitoli">
+                <h3>Eventi</h3>
+            </div>
+            
+
             <div class="grid">
                 <div class="card" data-label="Presentazione libro">
                     <div>
@@ -197,5 +208,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
