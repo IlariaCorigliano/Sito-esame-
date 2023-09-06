@@ -352,6 +352,7 @@ nav ul {
     margin: 40px auto;
     justify-content: center;
     margin-top: 100px;
+    line-height: 1.5;
 }
 
 .testo p {
@@ -438,7 +439,7 @@ footer a:hover {
 }
 
 .badge5 {
-    width: 100%;
+    width: 400px;
 }
 
 .badge5::after {
@@ -455,7 +456,7 @@ footer a:hover {
 }
 
 .badge6 {
-    width: 100%;
+    width: 400px;
 }
 
 .badge6::after {
@@ -475,6 +476,20 @@ footer a:hover {
     max-width: 400px;
 }
 
+.badge7::after {
+    position: absolute;
+    content: attr(data-label);
+    bottom: 118px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    margin: 0;
+    color: var(--textcolor);
+    background-color: #F4BA24;
+}
+
+
 .bg-green {
     background-color: #51A372;
     height: 600px;
@@ -488,6 +503,8 @@ footer a:hover {
     font-weight: bold;
     margin: 20px;
 }
+
+
 
 .card-prodotti{
     display: flex;
@@ -525,6 +542,18 @@ footer a:hover {
 
 .ingredienti ul li::marker {
     color: var(--textcolor2);
+}
+
+.estratto{
+    margin-bottom: 30px;
+}
+
+.estratto h3{
+    margin: 15px 0;
+}
+
+.ingredienti h3{
+    margin: 15px 0;
 }
 
 div.pannello{
@@ -677,12 +706,11 @@ section.eventi h2{
     
 }
 
-
 .flex{
     display: flex;
     justify-content: center;
     gap: 120px;
-    margin-top: 64px;
+    margin: 64px;
     justify-content: center;
     align-items: center;
 
