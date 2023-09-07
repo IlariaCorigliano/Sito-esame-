@@ -29,6 +29,7 @@ body {
 
 main {
     margin: 40px auto;
+    max-width: 1300px;
     
 }
 
@@ -160,14 +161,19 @@ nav ul {
 }
 
 .contenitore {
-    margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 32px;
+    gap: 24px;
+    column-gap: 16px;
     
 }
 
-.badge1::after {
+.badge1, .badge2, .badge3, .badge4, .badge5, .badge6, .badge7 {
+    width: 80%;
+    height: 100%;
+}
+
+.badge1::after, .badge2::after, .badge3::after, .badge4::after, .badge5::after, .badge6::after,.badge7::after {
     position: absolute;
     content: attr(data-label);
     bottom: 66px;
@@ -175,48 +181,46 @@ nav ul {
     width: 8rem;
     z-index: 3;
     text-align: center;
-    margin: 0;
     color: var(--textcolor);
+}
+
+.badge5::after, .badge6::after,.badge7::after{
+    position: absolute;
+    content: attr(data-label);
+    bottom: 118px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    color: var(--textcolor);
+}
+
+.badge1::after{
     background-color: hsl(205, 78%, 56%);
-} 
+}
 
 .badge2::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 66px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
     background-color: hsl(0, 68%, 55%);
 }
 
 .badge3::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 66px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
     background-color: hsl(266, 86%, 70%);
 }
 
 .badge4::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 66px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
     background-color: hsl(86, 73%, 40%);
+}
+
+.badge5::after {
+    background-color: hsl(17, 93%, 49%);
+}
+
+.badge6::after {
+    background-color: hsl(86, 73%, 40%);
+}
+
+.badge7::after {
+    background-color: hsl(46, 88%, 48%);
 }
 
 .contenitore img {
@@ -240,9 +244,8 @@ nav ul {
     font-family: 'Outfit';
 }
 
-.contenitore h1:hover {
+.contenitore h1:hover, .intestazione h1:hover{
     color: hsl(205, 56%, 38%);
-    transition:.5s ease;;
 }
 
 .contenitore div {
@@ -282,7 +285,7 @@ nav ul {
 .eventi .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    max-width: 700px;
+    max-width: 1300px;
     
 }
 
@@ -353,6 +356,28 @@ nav ul {
 
 }
 
+.testo2 {
+    max-width: 900px;
+    margin: 100px auto;
+    justify-content: center;
+    
+}
+
+.testo2 p {
+    max-width: 900px;
+    color: #161616;
+    margin: 24px auto ;
+    line-height: 1.5; 
+    font-family: 'Inter', sans-serif;
+}
+
+.testo2 h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+
+}
+
 .grid-palme{
     margin: 40px auto;
     display: grid;
@@ -413,6 +438,7 @@ footer a:hover {
 .approfondimenti{
     background-color: #214B69;
     padding: 72px 40px;
+    max-width: none !important;
 
 }
 
@@ -420,40 +446,6 @@ footer a:hover {
     color: #ffffff;
     font-weight: bold;
     font-size: 24px;
-}
-
-
-.badge5::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 118px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
-    background-color: hsl(17, 93%, 49%);
-}
-
-.badge6::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 118px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
-    background-color: hsl(86, 73%, 40%);
-}
-
-
-.bg-green {
-    background-color: #51A372;
-    height: 600px;
-    margin-top: 100px;
 }
 
 .subtitle{
@@ -571,8 +563,8 @@ section.eventi h2{
 
 
 .herobox-img img{
-    width: 617px;
-    height: 526px;
+    width: 517px;
+    height: 426px;
     margin-top: 120px;
     object-fit: cover;
 }
@@ -619,10 +611,11 @@ section.eventi h2{
 
 .herobox {
     display: flex;
-    height: 575px;
+    height: 475px;
     justify-content: center;
     
 }
+
 
 .orange{
     background-color: #F59032;
