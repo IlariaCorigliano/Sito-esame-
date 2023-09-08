@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
 p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;600;700&display=swap');
 
 :root {
     --bgcolor: hsl(104, 54%, 35%);
@@ -30,7 +31,7 @@ body {
 main {
     margin: 40px auto;
     max-width: 1300px;
-    
+    font-size: 16px;
 }
 
 nav {
@@ -345,7 +346,7 @@ nav ul {
     
 }
 
-.testo p {
+.testo p, .testo2 p {
     max-width: 900px;
     color: #161616;
     margin: 24px auto ;
@@ -353,7 +354,7 @@ nav ul {
     font-family: 'Inter', sans-serif;
 }
 
-.testo h3 {
+.testo h3, .testo2 h3{
     font-family: 'Outfit', semibold;
     font-size: 24px;
     color: var(--textcolor2);
@@ -366,22 +367,6 @@ nav ul {
     justify-content: center;
     
 }
-
-.testo2 p {
-    max-width: 900px;
-    color: #161616;
-    margin: 24px auto ;
-    line-height: 1.5; 
-    font-family: 'Inter', sans-serif;
-}
-
-.testo2 h3 {
-    font-family: 'Outfit', semibold;
-    font-size: 24px;
-    color: var(--textcolor2);
-
-}
-
 .grid-palme{
     margin: 40px auto;
     display: grid;
@@ -533,37 +518,6 @@ div.pannello h2{
     margin-bottom: 15px;
 }
 
-div.gridange{
-    display: flex;
-    flex-direction: row; 
-    gap: 56px;
-}
-
-div.gridange img{
-    margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-
-}
-
-div.gridange h1{
-    margin-top: 1px;
-    color:var(--textcolor1);
-    font-size: 24px;
-    font-weight: bold;
-    
-}
-
-div.gridange p{   
-    font-size: 16px;
-    font-weight: 600;  
-}
-
-div.gridange h2{
-    font-size: 16px;
-    font-weight: 600;    
-}
-
 section.eventi h2{
     color:var(--textcolor2);
     font-size: 24px;
@@ -700,3 +654,47 @@ section.eventi h2{
     font-weight: bold;
     color: var(--textcolor2);
 }
+
+.flex-eventi {
+    display: flex;
+    gap: 64px;
+    margin: 42px;
+}
+
+.data {
+    display: flex;
+    gap: 16px;
+}
+
+.data p {
+    font-family: 'Inter', bold;
+}
+
+.descrizione {
+    max-width: 700px;
+}
+
+.descrizione p {
+    margin-bottom: 24px;
+}
+
+.descrizione h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+    margin: 24px 0 16px;
+}
+
+.linea {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.info-evento {
+    background-color: rgb(230, 231, 171) ;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+
