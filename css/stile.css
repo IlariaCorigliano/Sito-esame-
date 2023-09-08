@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
 p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;600;700&display=swap');
 
 :root {
     --bgcolor: hsl(104, 54%, 35%);
@@ -29,7 +30,8 @@ body {
 
 main {
     margin: 40px auto;
-    
+    max-width: 1300px;
+    font-size: 16px;
 }
 
 nav {
@@ -160,78 +162,69 @@ nav ul {
 }
 
 .contenitore {
-    margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
+    
 }
 
-.badge1 {
+.badge1, .badge2, .badge3, .badge4, .badge5, .badge6, .badge7 {
     width: 100%;
+    height: 100%;
 }
 
-.badge1::after {
+.badge1::after, .badge2::after, .badge3::after, .badge4::after, .badge5::after, .badge6::after,.badge7::after {
     position: absolute;
     content: attr(data-label);
-    bottom: 65px;
+    bottom: 66px;
     padding: 0.25rem;
     width: 8rem;
     z-index: 3;
     text-align: center;
-    margin: 0;
     color: var(--textcolor);
+}
+
+.badge5::after, .badge6::after,.badge7::after{
+    position: absolute;
+    content: attr(data-label);
+    bottom: 118px;
+    padding: 0.25rem;
+    width: 8rem;
+    z-index: 3;
+    text-align: center;
+    color: var(--textcolor);
+}
+
+.badge1::after{
     background-color: hsl(205, 78%, 56%);
 }
 
-.badge2 {
-    width: 100%;
-}
-
 .badge2::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 65px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
     background-color: hsl(0, 68%, 55%);
 }
 
-.badge3 {
-    width: 100%;
-}
-
 .badge3::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 65px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
     background-color: hsl(266, 86%, 70%);
 }
 
-.badge4 {
-    width: 100%;
+.badge4::after {
+    background-color: hsl(86, 73%, 40%);
 }
 
-.badge4::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 65px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
+.badge5::after {
+    background-color: hsl(17, 93%, 49%);
+}
+
+.badge6::after {
     background-color: hsl(86, 73%, 40%);
+}
+
+.badge7::after {
+    background-color: hsl(46, 88%, 48%);
+}
+
+.badge7 {
+    max-width: 800px;
 }
 
 .contenitore img {
@@ -239,6 +232,7 @@ nav ul {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
 
 .contenitore h1 {
@@ -254,9 +248,8 @@ nav ul {
     font-family: 'Outfit';
 }
 
-.contenitore h1:hover {
+.contenitore h1:hover{
     color: hsl(205, 56%, 38%);
-    transition:.5s ease;;
 }
 
 .contenitore div {
@@ -270,6 +263,7 @@ nav ul {
     font-family: 'Outfit', semibold;
     font-size: 24px;
     color: var(--textcolor2);
+    margin: 24px;
 }
 
 .sottotitoli p {
@@ -293,9 +287,9 @@ nav ul {
 }
 
 .eventi .grid {
-    margin: 16px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 750px;
     
 }
 
@@ -309,9 +303,6 @@ nav ul {
     font-size: 24px;
 }
 
-.eventi .card {
-    width: 100%;
-}
 
 .eventi .card::after {
     position: absolute;
@@ -349,13 +340,13 @@ nav ul {
 
 .testo {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 24px auto 64px;
     justify-content: center;
     margin-top: 100px;
     line-height: 1.5;
 }
 
-.testo p {
+.testo p, .testo2 p {
     max-width: 900px;
     color: #161616;
     margin: 24px auto ;
@@ -363,19 +354,25 @@ nav ul {
     font-family: 'Inter', sans-serif;
 }
 
-.testo h3 {
+.testo h3, .testo2 h3{
     font-family: 'Outfit', semibold;
     font-size: 24px;
     color: var(--textcolor2);
 
 }
 
+.testo2 {
+    max-width: 900px;
+    margin: 100px auto;
+    justify-content: center;
+    
+}
 .grid-palme{
     margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
-   
+    max-width: 1300px;
 }
 
 .card-gradient{
@@ -429,7 +426,9 @@ footer a:hover {
 
 .approfondimenti{
     background-color: #214B69;
-    padding: 40px;
+    padding: 72px 40px;
+    max-width: none !important;
+
 }
 
 .approfondimenti h3{
@@ -586,36 +585,6 @@ div.pannello h2{
     margin-bottom: 15px;
 }
 
-div.gridange{
-    display: flex;
-    flex-direction: row; 
-    gap: 56px;
-}
-
-div.gridange img{
-    margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-
-}
-
-div.gridange h1{
-    margin-top: 1px;
-    color:var(--textcolor1);
-    font-size: 24px;
-    font-weight: bold;
-    
-}
-div.gridange p{   
-    font-size: 16px;
-    font-weight: 600;  
-}
-
-div.gridange h2{
-    font-size: 16px;
-    font-weight: 600;    
-}
-
 section.eventi h2{
     color:var(--textcolor2);
     font-size: 24px;
@@ -625,8 +594,8 @@ section.eventi h2{
 
 
 .herobox-img img{
-    width: 617px;
-    height: 526px;
+    width: 517px;
+    height: 426px;
     margin-top: 120px;
     object-fit: cover;
 }
@@ -673,10 +642,11 @@ section.eventi h2{
 
 .herobox {
     display: flex;
-    height: 575px;
+    height: 475px;
     justify-content: center;
     
 }
+
 
 .orange{
     background-color: #F59032;
@@ -708,13 +678,11 @@ section.eventi h2{
 
 .flex{
     display: flex;
-    justify-content: center;
     gap: 120px;
     margin: 64px;
     justify-content: center;
     align-items: center;
-
-    
+   
 }
 
 .flex div h3{
@@ -723,13 +691,11 @@ section.eventi h2{
     font-size: 24px;
     color: var(--textcolor2);
     margin-bottom: 24px;
-    
-
 }
 
 .flex div div {
     margin-bottom: 64px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .trasporti h1 {
@@ -739,12 +705,17 @@ section.eventi h2{
     font-family: 'Outfit', bold;
     margin: 0;
     padding: 48px;
-    
+    background-color: #B5B910;
+    margin-top: 64px;
 }
 
-.trasporti .bg {
-    background-color: #B5B910;
-    max-width: 1900px;
+.flex i {
+    margin-bottom: 24px;
+    color: #B5B910;
+}
+
+.trasporti .flex i {
+    transform: translate(220px);
 }
 
 .indicazioni {
@@ -756,3 +727,47 @@ section.eventi h2{
     font-weight: bold;
     color: var(--textcolor2);
 }
+
+.flex-eventi {
+    display: flex;
+    gap: 64px;
+    margin: 42px;
+}
+
+.data {
+    display: flex;
+    gap: 16px;
+}
+
+.data p {
+    font-family: 'Inter', bold;
+}
+
+.descrizione {
+    max-width: 700px;
+}
+
+.descrizione p {
+    margin-bottom: 24px;
+}
+
+.descrizione h3 {
+    font-family: 'Outfit', semibold;
+    font-size: 24px;
+    color: var(--textcolor2);
+    margin: 24px 0 16px;
+}
+
+.linea {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.info-evento {
+    background-color: rgb(230, 231, 171) ;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+

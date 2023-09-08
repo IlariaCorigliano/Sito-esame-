@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>funghi</title>
 
     <body>
@@ -67,67 +69,74 @@
             </section>
 
             <section>
-                <h3>I funghi che trovi nel parco</h3>
-                <div class="img-carosello">
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/edson-ugalde-26OIe4PNBa8-unsplash.jpg" width="373px" height="396px"></a>
-                        <p>Amarita muscaria</p>
-                    </div>
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/rob-NBixevK6JLU-unsplash.jpg" width="373px" height="396px"></a>
-                        <p>Pleurotus eryngii</p>
-                    </div>
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/Helvella_leucopus.jpg" width="373px" height="396px"></a>
-                        <p>Helvella spadicea</p>
-                    </div>
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/Lactarius_pubescens_a1.jpg" width="373px" height="396px"></a>
-                        <p>Lactarius torminosus</p>
-                    </div>
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/aleksey-oryshchenko-Ao5DUiwBX6s-unsplash.jpg" width="373px" height="396px"></a>
-                        <p>Hypholoma fasciuculare</p>
-                    </div>
-                    <div class="img-carosello">
-                        <a href="funghi.html"><img src="./immagini/rob-o3QdK-LTfRY-unsplash.jpg" width="373px" height="396px"></a>
-                        <p>Trametes pubescens</p>
-                    </div>
+                <div class="sottotitoli">
+                    <h3>I funghi che trovi nel parco</h3>
                 </div>
-                <div class="dots-carosello">
-                    <!-- il dot si fa nel css, bg-color+border radius 50%+ width + height uguale dimensione -->
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
+    
+                <div class="container">
+    
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+            
+                    <div class="carosello">
+                        <div class="card-gradient" style="background-image: url('./immagini/edson-ugalde-26OIe4PNBa8-unsplash.jpg');" draggable="false"> 
+                            <h2>Amarita muscaria</h2>
+                        </div>
+                        <div class="card-gradient" style="background-image: url('./immagini/rob-NBixevK6JLU-unsplash.jpg');" draggable="false" > 
+                            <h2>Pleurotus eryngii</h2>
+                        </div>
+                    
+                        <div class="card-gradient" style="background-image: url('./immagini/Helvella_leucopus.jpg');" draggable="false" > 
+                            <h2>Helvella spadicea</h2>
+                        </div>
+                    
+                        <div class="card-gradient" style="background-image: url('./immagini/Lactarius_pubescens_a1.jpg');" draggable="false" > 
+                            <h2>Lactarius torminosus</h2>
+                        </div>
+                    
+                        <div class="card-gradient" style="background-image: url('./immagini/aleksey-oryshchenko-Ao5DUiwBX6s-unsplash.jpg');" draggable="false" > 
+                            <h2>Hypholoma fasciuculare</h2>
+                        </div>
+                    
+                        <div class="card-gradient" style="background-image: url('./immagini/rob-o3QdK-LTfRY-unsplash.jpg');" draggable="false" > 
+                            <h2>Trametes pubescens</h2>
+                        </div>   
+                    </div>
+                    
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+    
                 </div>
+    
             </section>
 
             <section>
                 <div class="approfondimenti">
                     <h3>Non perderti:</h3>
-                    <div>
-                        <div class="card">
-                            <div class="img-fluid">
-                                <a href="coralli.html"><img src="./immagini/qui-nguyen-0G01UI1MQhg-unsplash.jpg" width="384px" height="381px"></a>
-                            </div>
-                            <a href="coralli.html">I coralli</a> 
+                    <div class="contenitore">
+                        <div>
+                            <a href="coralli.html">
+                                <img src="./immagini/qui-nguyen-0G01UI1MQhg-unsplash.jpg" loading="giardino" width="384px" height="381px">
+                                <h1>I coralli</h1>
+                            </a>  
                         </div>
-                        <div class="card">
-                            <div class="img-fluid">
-                                <a href="fossili.html"><img src="./immagini/gabi-scott-c9y23cBO2UM-unsplash.jpg" width="380px" height="385px"></a>
-                            </div>
-                            <a href="fossili.html">I fossili</a> 
+        
+                        <div>
+                            <a href="erbario.html">
+                                <img src="./immagini/cary-bates-59Ws4XAXV3g-unsplash.jpg" loading="fossili" width="384px" height="381px">
+                                <h1>L'ebario</h1>
+                            </a>  
                         </div>
-                        <div class="card">
-                            <div class="img-fluid">
-                                <a href="museo.html"><img src="./immagini/esposizione-dei-fossili.jpg" width="384px" height="381px"></a>
-                            </div>
-                            <a href="museo.html">Il museo</a> 
+        
+                        <div>
+                            <a href="teatro.html">
+                                <img src="./immagini/esposizione-dei-fossili.jpg" loading="teatro" width="384px" height="381px">
+                                <h1>Il museo</h1>
+                            </a>  
                         </div>
+                     
                     </div>
-                   </div>  
+                </div>  
             </section>
+            
         </main>
         <footer>
             <div class="grid">
@@ -150,5 +159,8 @@
                 </div>
             </div>
         </footer>
+
+        <script src="js/script.js"></script>
+
     </body>
     </html>
