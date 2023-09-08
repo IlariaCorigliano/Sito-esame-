@@ -163,13 +163,12 @@ nav ul {
 .contenitore {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 24px;
-    column-gap: 16px;
+    gap: 32px;
     
 }
 
 .badge1, .badge2, .badge3, .badge4, .badge5, .badge6, .badge7 {
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
@@ -223,6 +222,10 @@ nav ul {
     background-color: hsl(46, 88%, 48%);
 }
 
+.badge7 {
+    max-width: 800px;
+}
+
 .contenitore img {
     object-fit: cover;
     width: 100%;
@@ -244,7 +247,7 @@ nav ul {
     font-family: 'Outfit';
 }
 
-.contenitore h1:hover, .intestazione h1:hover{
+.contenitore h1:hover{
     color: hsl(205, 56%, 38%);
 }
 
@@ -285,7 +288,7 @@ nav ul {
 .eventi .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    max-width: 1300px;
+    max-width: 750px;
     
 }
 
@@ -336,8 +339,9 @@ nav ul {
 
 .testo {
     max-width: 900px;
-    margin: 24px auto;
+    margin: 24px auto 64px;
     justify-content: center;
+
     
 }
 
@@ -446,6 +450,7 @@ footer a:hover {
     color: #ffffff;
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 24px;
 }
 
 .subtitle{
@@ -492,6 +497,10 @@ footer a:hover {
 
 .ingredienti ul li::marker {
     color: var(--textcolor2);
+}
+
+.ingredienti h3, .procedimento h3 {
+    margin : 16px ;
 }
 
 div.pannello{
@@ -544,6 +553,7 @@ div.gridange h1{
     font-weight: bold;
     
 }
+
 div.gridange p{   
     font-size: 16px;
     font-weight: 600;  
