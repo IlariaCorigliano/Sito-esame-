@@ -437,58 +437,6 @@ footer a:hover {
     font-size: 24px;
 }
 
-.badge5 {
-    width: 400px;
-}
-
-.badge5::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 118px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
-    background-color: hsl(17, 93%, 49%);
-}
-
-.badge6 {
-    width: 400px;
-}
-
-.badge6::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 118px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
-    background-color: hsl(86, 73%, 40%);
-}
-
-.badge7 {
-    max-width: 400px;
-}
-
-.badge7::after {
-    position: absolute;
-    content: attr(data-label);
-    bottom: 118px;
-    padding: 0.25rem;
-    width: 8rem;
-    z-index: 3;
-    text-align: center;
-    margin: 0;
-    color: var(--textcolor);
-    background-color: #F4BA24;
-}
-
-
 .bg-green {
     background-color: #51A372;
     height: 600px;
@@ -502,8 +450,6 @@ footer a:hover {
     font-weight: bold;
     margin: 20px;
 }
-
-
 
 .card-prodotti{
     display: flex;
