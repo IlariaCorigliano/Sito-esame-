@@ -286,11 +286,14 @@ nav ul {
     margin: 24px auto;
 }
 
+.indexfunghi{
+    margin-bottom: 70px;
+}
+
 .eventi .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    max-width: 750px;
-    
+    gap: 32px;
 }
 
 .eventi .grid div {
@@ -627,6 +630,23 @@ section.eventi h2{
     object-fit: cover;
 }
 
+.secondatecnica{
+    margin-top: 30px;
+}
+
+.ingredienti li{
+    line-height: 1,5;
+}
+
+.sapone{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.procedimento{
+    line-height: 25px;
+}
+
 
 .flex div i {
     color: #B5B910;
@@ -634,11 +654,19 @@ section.eventi h2{
     
 }
 
-.flex{
+.gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
    
+}
+
+.flex{
+    display: flex;
+    gap: 120px;
+    margin: 64px;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex div h3{
