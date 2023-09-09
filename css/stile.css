@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
 p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;600;700&display=swap');
+
 
 :root {
     --bgcolor: hsl(104, 54%, 35%);
