@@ -15,11 +15,6 @@ body {
     background-color: hsl(0, 0%, 96%);
 }
 
-main {
-    margin: 40px auto;
-    max-width: 1300px;
-}
-
 
 .container {
     max-width: 1300px;

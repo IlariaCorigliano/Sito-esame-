@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stile.css">
-    <title>parco-kentie</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>palma-amido</title>
 </head>
 <body>
     <header>
@@ -50,17 +52,19 @@
             </div>
         </section>   
     </header>
-    <section>
-        <div class="testo2">
-            <h3>Habitat</h3>
-            <p>E’ una palma originaria delle isole Molucche, ampiamente distribuita in tutto il sud-est Asiatico e nelle isole del Pacifico. </p>
-            <p> Tipica di ambienti tropicali umidi e paludosi, ha una crescita molto rapida ed è monocarpica, cioè dopo la fioritura, che avviene intorno al quindicesimo anno di età muore. </p>
-            <h3> Utilizzi</h3>
-            <p>Dal midollo di Metroxylon sagu si ricava una farina molto importante dal punto di vista alimentare. </p>
-            <p>Per ottenere il sago le piante vengono abbattute all’inizio della fioritura, quando nel tronco si è accumulata la massima quantità di amido. Il tronco si taglia in pezzi di 1-2 m e viene privato della durissima parte corticale. Il midollo estratto si lava in acqua e la farina ottenuta viene setacciata e fatta essiccare. </p>
-            <p>Ogni pianta può produrre da 100 a 300 kg di amido, detto anche sago, apprezzato come alimento e utilizzato anche come appretto nell’industria tessile. </p>
-        </div>
-    </section>
+    <main>
+        <section>
+            <div class="testo2">
+                <h3>Habitat</h3>
+                <p>E’ una palma originaria delle isole Molucche, ampiamente distribuita in tutto il sud-est Asiatico e nelle isole del Pacifico. </p>
+                <p> Tipica di ambienti tropicali umidi e paludosi, ha una crescita molto rapida ed è monocarpica, cioè dopo la fioritura, che avviene intorno al quindicesimo anno di età muore. </p>
+                <h3> Utilizzi</h3>
+                <p>Dal midollo di Metroxylon sagu si ricava una farina molto importante dal punto di vista alimentare. </p>
+                <p>Per ottenere il sago le piante vengono abbattute all’inizio della fioritura, quando nel tronco si è accumulata la massima quantità di amido. Il tronco si taglia in pezzi di 1-2 m e viene privato della durissima parte corticale. Il midollo estratto si lava in acqua e la farina ottenuta viene setacciata e fatta essiccare. </p>
+                <p>Ogni pianta può produrre da 100 a 300 kg di amido, detto anche sago, apprezzato come alimento e utilizzato anche come appretto nell’industria tessile. </p>
+            </div>
+        </section>
+
         <section>
             <div class="Prodotti">
                 <div class="testo">
@@ -71,64 +75,73 @@
                         <div class="img-fluid">
                             <img src="./immagini/amidopalma.webp" width="278px" height="278px";>
                         </div>
+                        <p>Amido di palma</p> 
                     </div>
-                    <p>Amido di palma</p> 
-                </div>
-                <div class="card">
-                    <div class="img-fluid">
-                        <img src="./immagini/sago.jpg" width="278px" height="278px";>
+
+                    <div class="card">
+                        <div class="img-fluid">
+                           <img src="./immagini/sago.jpg" width="278px" height="278px";>
+                        </div>
+                        <p>Sago</p> 
                     </div>
-                    <p>Sago</p> 
                 </div>
+            </div>
         </section>
+
         <section>
-            <div class="bg-green">
-                <div class="subtitle">
-                    <h3>Altre palme</h3>
-                </div>
-                <div class="contenitore">
-                    <div class="card-gradient" style="background-image: url('./immagini/cocco\ \(2\).jpg');"> 
-                        <h2><a href="palmacocco.html">Palma da cocco</a></h2>
-                    </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/rafia.jpg');"> 
-                        <h2><a href="palmarafia.html">Palma da rafia</a></h2>
-                    </div>
-                    <div class="card-gradient" style="background-image: url('./immagini/Palma da vino.jpg');"> 
-                        <h2><a href="palmavino.html">Palma da vino</a></h2>
-                    </div>
-                </div>
+            <div class="sottotitoli">
+                <h3>Altre palme</h3>
             </div>
-                <div class="img-carosello">
-                    <img>
+
+            <div class="container">
+
+                <i id="left" class="fa-solid fa-angle-left"></i>
+        
+                <div class="carosello">
+                    <div class="card-gradient" style="background-image: url('./immagini/cocco\ \(2\).jpg');" draggable="false"> 
+                        <h2>Palma da cocco</h2>
+                    </div>
+                    <div class="card-gradient" style="background-image: url('./immagini/rafia.jpg');" draggable="false" > 
+                        <h2>Palma da rafia</h2>
+                    </div>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/Palma da vino.jpg');" draggable="false" > 
+                        <h2>Palma da vino</h2>
+                    </div>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/Datteri.jpg');" draggable="false" > 
+                        <h2>Palma da datteri</h2>
+                    </div>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/nana.jpg');" draggable="false" > 
+                        <h2>Palma nana</h2>
+                    </div>
+                
+                    <div class="card-gradient" style="background-image: url('./immagini/palmaavorio.webp');" draggable="false" > 
+                        <h2>Palma d'avorio</h2>
+                    </div> 
+                    
+                    <div class="card-gradient" style="background-image: url('./immagini/palma\ da\ olio.webp');" draggable="false" > 
+                        <h2>Palma da olio</h2>
+                    </div>
+
+                    <div class="card-gradient" style="background-image: url('./immagini/betel.webp');" draggable="false" > 
+                        <h2>Palma da betel</h2>
+                    </div>
+
+                    <div class="card-gradient" style="background-image: url('./immagini/rattan.jpg');" draggable="false" > 
+                        <h2>Palma da rattan</h2>
+                    </div>
+
+                    <div class="card-gradient" style="background-image: url('./immagini/zucchero.jpg');" draggable="false" > 
+                        <h2>Palma da zucchero</h2>
+                    </div>
                 </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
-                <div class="img-carosello">
-                    <img>
-                </div>
+                
+                <i id="right" class="fa-solid fa-angle-right"></i>
+
             </div>
-            <div class="dots-carosello">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+
         </section>
     </main>
     <footer>
@@ -152,5 +165,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
