@@ -77,7 +77,7 @@ body {
     scroll-behavior: auto;
 }
 
-.card-gradient {
+.card-gradient{
     min-height: 300px;
     width: calc(67% / 3);
     background-size: cover;
@@ -102,6 +102,7 @@ body {
     gap: 10px;
     
 }
+
 
 @media screen and (max-width: 900px) {
     .card-gradient {

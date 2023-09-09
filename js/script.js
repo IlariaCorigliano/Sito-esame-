@@ -2,6 +2,7 @@ const carousel = document.querySelector(".carosello");
 const arrowBtns = document.querySelectorAll(".container i");
 const firstCardWidth = carousel.querySelector(".card-gradient").offsetWidth;
 
+
 let isDragging = false, startX, startScrollLeft;
 
 arrowBtns.forEach(btn => {
