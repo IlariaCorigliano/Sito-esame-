@@ -428,6 +428,7 @@ footer a:hover {
     background-color: #214B69;
     padding: 72px 40px;
     max-width: none !important;
+    margin-bottom: 32px;
 
 }
 
@@ -435,6 +436,7 @@ footer a:hover {
     color: #ffffff;
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .bg-green {
@@ -535,7 +537,7 @@ section.eventi h2{
     color:var(--textcolor2);
     font-size: 24px;
     font-weight: bold;
-    margin-top: 5px;
+    margin: 50px 0 20px 0;
 }
 
 
@@ -680,6 +682,10 @@ section.eventi h2{
     margin: 42px;
 }
 
+.img{
+    margin-top: 30px;
+}
+
 .data {
     display: flex;
     gap: 16px;
@@ -714,6 +720,10 @@ section.eventi h2{
     background-color: rgb(230, 231, 171) ;
     padding: 32px;
     border-radius: 12px;
+}
+
+.data h2{
+    font-weight: bold;
 }
 
 
