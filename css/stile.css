@@ -547,6 +547,9 @@ section.eventi h2{
     margin: 50px 0 20px 0;
 }
 
+.img-carosello img{
+    object-fit: cover;
+}
 
 .herobox-img img{
     width: 517px;
@@ -632,11 +635,9 @@ section.eventi h2{
 }
 
 .flex{
-    display: flex;
-    gap: 120px;
-    margin: 64px;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
    
 }
 
