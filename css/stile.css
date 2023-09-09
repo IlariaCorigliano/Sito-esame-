@@ -432,25 +432,27 @@ footer a:hover {
 
 }
 
-.approfondimenti h3{
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
 
 .bg-green {
     background-color: #51A372;
-    height: 600px;
-    margin-top: 100px;
+    height: 400px;
+    margin: 100px 0 40px 0;
+}
+
+.hide{
+    background-color: #214B69;
 }
 
 .subtitle{
     font-size: 18pt; 
     font-family: 'Outfit', sans-serif;
     color: #214B69;
-    font-weight: bold;
+    font-weight: 600;
     margin: 20px;
+}
+
+.white{
+    color: #ffffff;
 }
 
 .card-prodotti{
@@ -462,7 +464,8 @@ footer a:hover {
 }
 
 .card-prodotti p{
-    font-weight: bold;
+    font-weight: 600;
+    color: #214B69;
 }
 
 .card-prodotti img{
