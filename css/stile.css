@@ -286,8 +286,8 @@ nav ul {
     margin: 24px auto;
 }
 
-.indexfunghi{
-    margin-bottom: 70px;
+.indexpalme{
+    margin-bottom: 68px;
 }
 
 .eventi .grid {
@@ -412,6 +412,10 @@ footer .grid {
   
 }
 
+footer .grid p, footer .grid h2, footer .grid a {
+    color: var(--textcolor);
+}
+
 footer h2 {
     font-weight: bold;
     font-size: 16px;
@@ -423,8 +427,8 @@ footer .info a {
 
 footer a:hover {
     font-weight: bold;
-    color: var(--textcolor);
-    transition:.5s ease;
+    color: var(--textcolor2);
+    transition: 0.2em;
 }
 
 .approfondimenti{
