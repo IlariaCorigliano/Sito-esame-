@@ -675,6 +675,19 @@ section.eventi h2{
    
 }
 
+.gallery2{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+
+}
+
+.gallery2 img{
+    object-fit: cover;
+    
+}
+
 .flex{
     display: flex;
     gap: 120px;
