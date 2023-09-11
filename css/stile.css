@@ -277,9 +277,6 @@ nav ul {
     margin: 24px auto;
 }
 
-.mappa p:hover {
-    background-color: var(--bgcolor);
-}
 
 .mappa img {
     display:block;
@@ -308,6 +305,7 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
 }
+
 
 .eventi .grid div {
     position: relative;
@@ -795,5 +793,22 @@ section.eventi h2{
     position: relative;
     display: inline;  
 }
-    
+ 
+@media (max-width: 800px) {
+    main {
+        max-width: 500px;
+        justify-content: center;
+    }
+
+    header ul {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+}
+
 
