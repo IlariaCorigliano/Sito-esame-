@@ -58,7 +58,7 @@ nav ul {
     font-family: 'Outfit', medium;
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown-content2 {
     position: absolute;
     display: none;
     height: 7rem;
@@ -77,19 +77,23 @@ nav ul {
     text-align: center;
 }
 
-.dropdown-content a {
+.dropdown-content a, .dropdown-content2 a {
     display: block;
     color: black;
     font-family: 'Inter', regular;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content2 a:hover {
     font-weight: bold;
     background-color: var(--bgcolorhover);
     display: block;
 }
 
 .dropdown:hover + .dropdown-content, .dropdown + .dropdown-content:hover, .dropdown.check + .dropdown-content {
+    display: flex !important;
+}
+
+.dropdown:hover + .dropdown-content2, .dropdown + .dropdown-content2:hover, .dropdown.check + .dropdown-content2 {
     display: flex !important;
 }
 
@@ -791,7 +795,7 @@ section.eventi h2{
     max-width: 1300px;
     width: 100%;
     position: relative;
-    display: inline;  
+     
 }
  
 @media (max-width: 800px) {
