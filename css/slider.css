@@ -59,12 +59,12 @@ body {
 }
 
 .container i:first-child{
-    left: -10px;
+    left: -22px;
     z-index: 100;
 }
 
 .container i:last-child{
-    right: -3px;
+    right: -22px;
     
 }
 
