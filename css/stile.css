@@ -270,6 +270,7 @@ nav ul {
     margin: 24px;
 }
 
+
 .sottotitoli p {
     font-family: 'Inter', regular ;
     color: var(--textcolor);
@@ -281,11 +282,21 @@ nav ul {
     margin: 24px auto;
 }
 
+.margin{
+    margin: 60px 0;
+}
+
 
 .mappa img {
     display:block;
     margin: 24px auto;
 }
+
+.mappa.sottotitoli {
+    display: flex;
+    justify-content: center;
+}
+
 
 .piantina{
     display: flex;
@@ -470,6 +481,30 @@ footer a:hover {
     margin: 20px;
 }
 
+.subtitle-gallery{
+    font-size: 18pt; 
+    font-family: 'Outfit', sans-serif;
+    color: #214B69;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 24px;
+    
+}
+
+.sottotitoli-curiosità{
+    font-size: 18pt; 
+    font-family: 'Outfit', sans-serif;
+    color: #214B69;
+    margin: 80px 20px 25px 20px;
+
+}
+
+.sottotitoli-curiosità a:hover{
+    color: hsl(205, 56%, 38%);
+    font-weight: 600;
+}
+
+
 .white{
     color: #ffffff;
 }
@@ -570,6 +605,12 @@ section.eventi h2{
     object-fit: cover;
 }
 
+.kermesse img{
+    width: 400px;
+    height: auto;
+    margin: 0 20px 60px;
+}
+
 .herobox-img img{
     width: 517px;
     height: 426px;
@@ -616,6 +657,7 @@ section.eventi h2{
     font-weight: bold;
     color: #214B69;
 }
+
 
 .herobox {
     display: flex;
@@ -673,16 +715,15 @@ section.eventi h2{
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 32px;
+    gap: 10px;
    
 }
 
 .gallery2{
-    display: grid;
+    display: flex;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
-
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .gallery2 img{
