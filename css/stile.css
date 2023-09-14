@@ -467,7 +467,7 @@ main {
     max-width: 1300px;
 }
 
-.card-gradient{
+.card-gradient2{
     min-height: 400px;
     position: relative;
     background-size: cover;
@@ -477,14 +477,14 @@ main {
     box-shadow: inset 5px -300px 300px -300px rgba(0, 0, 0, 1);  
 }
 
-.card-gradient h2 a {
+.card-gradient2 h2 a {
     color: var(--textcolor);
     font-size: 24px;
     align-items: center;
     overflow: hidden;
     position: absolute;
     bottom: 20px;
-    padding: 10px ;
+    padding: 24px ;
     gap: 10px;
     
 }
@@ -960,8 +960,6 @@ section.eventi h2{
         }
 
 }
-
-
 
 
 @media (min-width:800px){

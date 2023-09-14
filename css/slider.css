@@ -80,8 +80,6 @@ body {
 .card-gradient{
     min-height: 300px;
     width: calc(67% / 3);
-    background-size: cover;
-    background-position: center; 
     margin: 0 16px;
     border-radius: 10px;
     box-shadow: inset 5px -300px 300px -300px rgba(0, 0, 0, 1);  
@@ -93,16 +91,22 @@ body {
 .card-gradient h2 {
     color: #fff;
     font-size: 24px;
-    translate: 20px 280px;
+    translate: 20px 245px;
     align-items: center;
     overflow: hidden;
-    bottom: 350px;
+    
+}
+
+.card-gradient h2 a {
+    color: var(--textcolor);
+    font-size: 24px;
+    align-items: center;
+    overflow: hidden;
     bottom: 20px;
     padding: 10px ;
     gap: 10px;
     
 }
-
 
 @media screen and (max-width: 900px) {
     .card-gradient {
