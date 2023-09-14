@@ -229,10 +229,19 @@ main {
     background-position: center;
 }
 
-.contenitore {
+.card-index {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
+    
+}
+
+.contenitore {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+    gap: 32px;
+    max-width: 1000px;
+    margin: auto;
     
 }
 
@@ -296,6 +305,10 @@ main {
 }
 
 .contenitore img {
+    height: 300px;
+}
+
+.contenitore img, .card-index img {
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 10px;
@@ -303,28 +316,37 @@ main {
     
 }
 
-.contenitore h1 {
+.card-index h1{
     font-size: 1.5rem;
     text-align: center;
     padding: 16px;
     font-family: 'Outfit';
 }
 
-.contenitore p {
+.contenitore h1{
+    padding-bottom: 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Outfit';
+}
+
+
+
+.contenitore p, .card-index p{
     text-align: center;
     padding: 16px;
     font-family: 'Outfit';
 }
 
-.contenitore h1:hover{
+.contenitore h1, .card-index h1:hover{
     color: hsl(205, 56%, 38%);
 }
 
-.contenitore div {
+.contenitore div, .card-index div {
     background-color: #ffffff;
     border-radius: 10px;
     position: relative;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .sottotitoli h3 {
