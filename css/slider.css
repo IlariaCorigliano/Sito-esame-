@@ -32,6 +32,10 @@ body {
     
 }
 
+.container .carosello::-webkit-scrollbar {
+    display: none;
+} 
+
 .carosello .card-gradient {
     cursor: grab;
     user-select: none;
