@@ -236,7 +236,7 @@ main {
     
 }
 
-.contenitore {
+.contenitore, .contenitore2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
@@ -304,12 +304,12 @@ main {
     max-width: 800px;
 }
 
-.contenitore img {
+.contenitore img, .contenitore2 img {
     height: 300px;
 }
 
 
-.contenitore img, .card-index img {
+.contenitore img, .contenitore2 img, .card-index img {
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 10px;
@@ -325,25 +325,30 @@ main {
 }
 
 .contenitore h1{
+    padding: 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Outfit';
+}
+
+.contenitore2 h1 {
     padding-bottom: 16px;
     font-size: 1.5rem;
     text-align: center;
     font-family: 'Outfit';
 }
 
-
-
-.contenitore p, .card-index p{
+.contenitore p, .contenitore2 p, .card-index p{
     text-align: center;
     padding: 16px;
     font-family: 'Outfit';
 }
 
-.contenitore h1:hover, .card-index h1:hover{
+.contenitore h1:hover, .contenitore2 h1:hover, .card-index h1:hover{
     color: hsl(205, 56%, 38%);
 }
 
-.contenitore div, .card-index div {
+.contenitore div, .contenitore2 div, .card-index div {
     background-color: #ffffff;
     border-radius: 10px;
     position: relative;
@@ -941,7 +946,7 @@ section.eventi h2{
         
     }
 
-    .contenitore {
+    .contenitore, .contenitore2 {
         max-width: 500px;
     }
 
@@ -969,7 +974,7 @@ section.eventi h2{
         justify-content: center;
     }
 
-    .contenitore {
+    .contenitore, .contenitore2 {
         max-width: 400px;
     }
 
