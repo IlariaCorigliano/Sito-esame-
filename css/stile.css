@@ -929,7 +929,11 @@ section.eventi h2{
     position: relative;
      
 }
-
+.hover a:hover{
+    font-weight: bold;
+    color: var(--textcolor2);
+    transition: 0.2em;
+}
 
 @media (max-width: 1200px) {
     .herobox-img img {
