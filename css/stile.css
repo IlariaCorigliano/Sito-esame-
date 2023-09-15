@@ -238,7 +238,7 @@ main {
 
 .contenitore {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
     max-width: 1200px;
     margin: auto;
@@ -455,7 +455,7 @@ main {
 }
 
 .testo {
-    max-width: 900px;
+    max-width: 650px;
     margin: 24px auto 64px;
     justify-content: center;
     line-height: 1.5;
@@ -477,7 +477,7 @@ main {
 }
 
 .testo2 {
-    max-width: 900px;
+    max-width: 650px;
     margin: 100px auto;
     justify-content: center;
     
@@ -627,7 +627,7 @@ footer a:hover {
 .ingredienti {
     background-color: hsl(0, 1%, 84%);
     margin: 40px auto;
-    padding: 40px;
+    padding: 24px 48px;
 }
 .ingredienti ul li {
     list-style: disc;
@@ -642,10 +642,6 @@ footer a:hover {
 }
 
 .estratto h3{
-    margin: 15px 0;
-}
-
-.ingredienti h3{
     margin: 15px 0;
 }
 
@@ -750,6 +746,7 @@ section.eventi h2{
 
 .herobox {
     display: flex;
+
     height: 475px;
     justify-content: center;
     
@@ -927,13 +924,70 @@ section.eventi h2{
     position: relative;
      
 }
+
+
+@media (max-width: 1200px) {
+    .herobox-img img {
+        width: 330px;
+        height: 300px;
+    }
+
+    .herobox {
+        height: 350px;
+    }
+
+    .link {
+        margin-bottom: 20px;
+        
+    }
+
+    .contenitore {
+        max-width: 500px;
+    }
+
+    footer .grid {
+        display: flex;
+    }
+
+    .prodotti {
+        max-width: 300px;
+    }
+    .card-prodotti{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin: 40px;
+        
+        
+    }
+
+}
  
 @media (max-width: 800px) {
     main {
-        max-width: 500px;
+        max-width: 550px;
         justify-content: center;
     }
 
+    .contenitore {
+        max-width: 400px;
+    }
+
+    .herobox {
+        height: 250px;
+    }
+    .herobox-img {
+        display: none;
+    }
+
+    .testo2 {
+        margin: 24px auto 64px;
+    }
+
+    footer .grid {
+        flex-direction: column;
+        gap: 24px;
+    }
     .nav-mobile{
         display: flex;
     }
@@ -956,17 +1010,20 @@ section.eventi h2{
         display: block;
         background-color: white;
         height: 3px;
-        }
+    }
+    
 
     .hamburger-lines .line1 {
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
-        }
+    }
+    
 
     .hamburger-lines .line2 {
         transition: transform 0.2s ease-in-out;
-        }
-        
+    }
+
+
     .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
@@ -982,17 +1039,26 @@ section.eventi h2{
         
         input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
             transform: rotate(-45deg);
-        }
+        
+    }
 
+    
 }
 
-
 @media (min-width:800px){
+
     .nav-mobile{
+
         display: none;
+
     }
+
+ 
 
     .nav-desktop{
+
         display: flex;
+
     }
+
 }
