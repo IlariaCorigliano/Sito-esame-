@@ -423,6 +423,7 @@ main {
 .mappa img {
     display:block;
     margin: 24px auto 32px;
+    margin-bottom: 60px;
 }
 
 .mappa.sottotitoli {
@@ -695,6 +696,10 @@ footer a:hover {
     margin: 15px 0;
 }
 
+.ingredienti h3{
+    margin: 15px 0;
+}
+
 div.pannello{
     background-color: #dfc342;
     color:var(--textcolor);
@@ -781,7 +786,6 @@ div.pannello h2{
 
 .herobox {
     display: flex;
-
     height: 475px;
     justify-content: center;
     
@@ -803,10 +807,6 @@ div.pannello h2{
 
 .green{
     background-color: #A1C15D;
-}
-
-.forno img{
-    object-fit: cover;
 }
 
 .secondatecnica{
@@ -1052,6 +1052,7 @@ div.pannello h2{
     .flex-eventi img{
         width: 300px;
         height: 400px;
+        object-fit: cover;
     }
 
     .eventi {
@@ -1124,10 +1125,10 @@ div.pannello h2{
         transform: rotate(-45deg);
     }
 
-    .mappa img {
+    .mappa img .piantina img{
         width: 500px;
     }
-    
+
 }
 
 @media (min-width:800px){
@@ -1148,7 +1149,7 @@ div.pannello h2{
 
 @media (max-width: 600px) {
     main {
-        max-width: 300px;
+        max-width: 600px;
         margin: auto;
     }
 
@@ -1164,7 +1165,7 @@ div.pannello h2{
         font-size: 32px;
     }
 
-    .mappa img {
+    .mappa img .piantina img {
         width: 350px;
         margin: auto;
     }
