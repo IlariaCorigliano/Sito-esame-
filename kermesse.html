@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stile.css">
-    <title>Eventi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>kermesse</title>
 </head>
 <body>
     <header>
@@ -26,6 +27,7 @@
                          <a href="teatro.html">Teatro</a>
                          <a href="museo.html">Museo</a>
                          <a href="giardino.html">Giardino</a>
+                         <a href="pozzo.html">Pozzo</a>
                         </div>
                     </li>
                     
@@ -49,7 +51,6 @@
             <div class="marchio">
                 <a href="index.html">Parco delle Kentie</a>
             </div>
-
             <div>
                 <input class="checkbox" type="checkbox" name="" id="" />
                 <div class="hamburger-lines">
@@ -57,40 +58,47 @@
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
+                
                 <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">PARCO</a>
-                            <div class="dropdown-content">
-                             <a href="teatro.html">Teatro</a>
-                             <a href="museo.html">Museo</a>
-                             <a href="giardino.html">Giardino</a>
-                            </div>
-                        </li>
+
+                    <div class="subnav">
+                        <button class="freccia"><a href="parco.html">PARCO</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
                         
-                        <li><a href="eventi.html"> EVENTI</a></li>
-    
-                        <li>
-                            <a href="curiosità.html" class="dropdown" onclick="return verificaDropdown(event)">CURIOSITÀ</a>
-                            <div class="dropdown-content2">
-                                <a href="ricette.html">Ricette</a>
-                                <a href="fai da te.html">Fai da te</a>
-                                <a href="benessere.html">Benessere</a>
-                            </div>
-                        </li>
-    
-                        <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
-                    </ul>
+                        <div class="subnav-content">
+                          <a href="teatro.html">Teatro</a>
+                          <a href="museo.html">Museo</a>
+                          <a href="giardino.html">Giardino</a>
+                          <a href="pozzo.html">Pozzo</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="eventi.html">EVENTI</a>
+                    </div>
+                    
+                    <div class="subnav">
+                        
+                        <button class="freccia"><a href="curiosità.html">CURIOSITÀ</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
+                        
+                        <div class="subnav-content">
+                          <a href="ricette.html">Ricette</a>
+                          <a href="fai da te.html">Fai da te</a>
+                          <a href="benessere.html">Benessere</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="dovesiamo.html">DOVE SIAMO</a>
+                    </div>
                 </div>
             </nav>
-            </div>
+        </nav>
 
 
-            <heroimage>
-                <div class="pannello">
-                <h2>Eventi</h2>
-            </div>
+        <heroimage>
+             <div class="pannello">
+             <h2>Eventi</h2>
+        </div>
         </heroimage>
+
     </header>
     <main>
         
@@ -100,10 +108,23 @@
                 <p>Sala conferenze, Parco delle Kentie, Via M. Carbonaro, Riposto  (CT)</p>
             </div>
 
-            <div class="img">
-                <img src="./immagini/WhatsApp Image 2023-06-26 at 23.23.36.jpeg" alt="card1" width="481px" height="673px" >
-            </div>
-        </section>    
+            <div class="flex-eventi">
+                <img src="./immagini/WhatsApp Image 2023-06-26 at 23.23.36.jpeg" alt="card1" width="351px" height="484px" >
+               <div class="info-evento">
+                    <div class="data">
+                      <div><i class="fa-regular fa-calendar fa-2xl" style="color: #212123;"></i></div>
+                        <div>
+                           <h2><strong>20 settembre 2015, Ore 11:00</strong></h2>
+                        </div>
+                    </div>
+                    <div class="linea"></div>
+                    <div class="descrizione">
+                        <p>La kermesse di body painting al Parco delle Kentie a Riposto è un evento straordinario che celebra l'arte della pittura corporea in un ambiente idilliaco e creativo. </p>
+                        <p>Questo affascinante incontro annuale attrae artisti, modelli, appassionati d'arte e spettatori da tutto il mondo, offrendo loro una giornata indimenticabile di espressione artistica e condivisione di esperienze uniche.</p>
+                    </div>
+                </div> 
+            </div>  
+        </section>
 
         <section>
             <div class="subtitle">
@@ -111,35 +132,18 @@
             </div>
             
             <div class="gallery2">
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.34 (1).jpeg" width="383px" height="379px"></a>
-                  
-                </div>
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.34.jpeg" width="383px" height="379px"></a>
-                  
-                </div>
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35 (1).jpeg" width="383px" height="379px"></a>
-                  
-                </div>
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35 (2).jpeg" width="383px" height="379px"></a>
-                   
-                </div>
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35.jpeg" width="383px" height="379px"></a>
-                  
-                </div>
-                <div class="img-carosello">
-                    <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.33.jpeg" width="383px" height="379px"></a>
-                 
-                </div>
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.34 (1).jpeg" width="383px" height="379px">
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35 (2).jpeg" width="383px" height="379px">
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35.jpeg" width="383px" height="379px">
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.34.jpeg" width="383px" height="379px">
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.35 (1).jpeg" width="383px" height="379px">
+                <img src="./immagini/WhatsApp Image 2023-06-27 at 11.25.33.jpeg" width="383px" height="379px">
             </div>
         </section>
+
         <section class="eventi">
-            <div class="subtitle"> 
-                <h2> Vedi anche...</h2>
+            <div class="subtitle">
+                <h2> Vedi anche</h2>
             </div>
             
             <div class="grid">
@@ -154,22 +158,21 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="grid">
-                    <div class="card" data-label="Presentazione libro">
-                        <div>
-                            <a href="anna.html">
-                                <img src="./immagini/il-mistero-di-anna.jpg" loading="anna" width="251px" height="384px">
-                                <div class="testo-card">
-                                    <h1>Il mistero di Anna - Simona Lo Iacono</h1>
-                                    <p>27 novembre 2022</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>    
-                </div>
+    
+                <div class="card" data-label="Presentazione libro">
+                    <div>
+                        <a href="anna.html">
+                            <img src="./immagini/il-mistero-di-anna.jpg" loading="anna" width="251px" height="384px">
+                            <div class="testo-card">
+                                <h1>Il mistero di Anna - Simona Lo Iacono</h1>
+                                <p>27 novembre 2022</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>    
             </div>
         </section>           
+    
     </main>
 
     <footer>

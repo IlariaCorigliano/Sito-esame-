@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="css/stile.css">
     <title>tisanalavanda</title>
 </head>
@@ -49,7 +50,6 @@
             <div class="marchio">
                 <a href="index.html">Parco delle Kentie</a>
             </div>
-
             <div>
                 <input class="checkbox" type="checkbox" name="" id="" />
                 <div class="hamburger-lines">
@@ -57,50 +57,55 @@
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
+                
                 <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">PARCO</a>
-                            <div class="dropdown-content">
-                             <a href="teatro.html">Teatro</a>
-                             <a href="museo.html">Museo</a>
-                             <a href="giardino.html">Giardino</a>
-                            </div>
-                        </li>
+
+                    <div class="subnav">
+                        <button class="freccia"><a href="parco.html">PARCO</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
                         
-                        <li><a href="eventi.html"> EVENTI</a></li>
-    
-                        <li>
-                            <a href="curiosità.html" class="dropdown" onclick="return verificaDropdown(event)">CURIOSITÀ</a>
-                            <div class="dropdown-content2">
-                                <a href="ricette.html">Ricette</a>
-                                <a href="fai da te.html">Fai da te</a>
-                                <a href="benessere.html">Benessere</a>
-                            </div>
-                        </li>
-    
-                        <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
-                    </ul>
+                        <div class="subnav-content">
+                          <a href="teatro.html">Teatro</a>
+                          <a href="museo.html">Museo</a>
+                          <a href="giardino.html">Giardino</a>
+                          <a href="pozzo.html">Pozzo</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="eventi.html">EVENTI</a>
+                    </div>
+                    
+                    <div class="subnav">
+                        
+                        <button class="freccia"><a href="curiosità.html">CURIOSITÀ</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
+                        
+                        <div class="subnav-content">
+                          <a href="ricette.html">Ricette</a>
+                          <a href="fai da te.html">Fai da te</a>
+                          <a href="benessere.html">Benessere</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="dovesiamo.html">DOVE SIAMO</a>
+                    </div>
                 </div>
             </nav>
-            </div>
+        </nav>
 
-
-            <section>
-                <div class="herobox orange">
-                    <div class="herobox-img">
-                        <img src="./immagini/elena-leya-O7sKj9cjZOk-unsplash.jpg" alt="">   
-                    </div>
-                    <div class="herobox-text-left">
-                        <div class="link">
-                            <a href="curiosità.html">CURIOSITÀ</a>
-                        </div>
-                        <p>9 Luglio 2023</p>
-                        <h1>Tisana alla lavanda</h1>
-                    </div>
+        <section>
+            <div class="herobox orange">
+                <div class="herobox-img">
+                    <img src="./immagini/elena-leya-O7sKj9cjZOk-unsplash.jpg" alt="">   
                 </div>
-            </section>
-        </header>
+                <div class="herobox-text-left">
+                    <div class="link">
+                        <a href="curiosità.html">CURIOSITÀ</a>
+                    </div>
+                    <p>9 Luglio 2023</p>
+                    <h1>Tisana alla lavanda</h1>
+                </div>
+            </div>
+        </section>
+    </header>
 
     <main>
         <section class="testo2">

@@ -28,6 +28,7 @@
                          <a href="teatro.html">Teatro</a>
                          <a href="museo.html">Museo</a>
                          <a href="giardino.html">Giardino</a>
+                         <a href="pozzo.html">Pozzo</a>
                         </div>
                     </li>
                     
@@ -51,7 +52,6 @@
             <div class="marchio">
                 <a href="index.html">Parco delle Kentie</a>
             </div>
-
             <div>
                 <input class="checkbox" type="checkbox" name="" id="" />
                 <div class="hamburger-lines">
@@ -59,33 +59,39 @@
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
+                
                 <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="index.html" class="dropdown" onclick="return verificaDropdown(event)">PARCO</a>
-                            <div class="dropdown-content">
-                             <a href="teatro.html">Teatro</a>
-                             <a href="museo.html">Museo</a>
-                             <a href="giardino.html">Giardino</a>
-                            </div>
-                        </li>
+
+                    <div class="subnav">
+                        <button class="freccia"><a href="parco.html">PARCO</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
                         
-                        <li><a href="eventi.html"> EVENTI</a></li>
-    
-                        <li>
-                            <a href="curiosità.html" class="dropdown" onclick="return verificaDropdown(event)">CURIOSITÀ</a>
-                            <div class="dropdown-content2">
-                                <a href="ricette.html">Ricette</a>
-                                <a href="fai da te.html">Fai da te</a>
-                                <a href="benessere.html">Benessere</a>
-                            </div>
-                        </li>
-    
-                        <li><a href="dovesiamo.html"> DOVE SIAMO</a></li>
-                    </ul>
+                        <div class="subnav-content">
+                          <a href="teatro.html">Teatro</a>
+                          <a href="museo.html">Museo</a>
+                          <a href="giardino.html">Giardino</a>
+                          <a href="pozzo.html">Pozzo</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="eventi.html">EVENTI</a>
+                    </div>
+                    
+                    <div class="subnav">
+                        
+                        <button class="freccia"><a href="curiosità.html">CURIOSITÀ</a><i class="fa-solid fa-caret-down fa-lg" style="color: #669c35;"></i></button>
+                        
+                        <div class="subnav-content">
+                          <a href="ricette.html">Ricette</a>
+                          <a href="fai da te.html">Fai da te</a>
+                          <a href="benessere.html">Benessere</a>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                     <a href="dovesiamo.html">DOVE SIAMO</a>
+                    </div>
                 </div>
             </nav>
-            </div>
+        </nav>
 
 
     <section class="heroimage">
@@ -155,7 +161,7 @@
            
         </section>
 
-        <section class="margin">
+        <section>
             <div class="mappa sottotitoli">
                 <h3>La mappa</h3>
             </div>
@@ -223,7 +229,6 @@
             <div class="sottotitoli">
                 <h3>Eventi</h3>
             </div>
-            
 
             <div class="grid">
                 <div class="card" data-label="Presentazione libro">
@@ -270,7 +275,7 @@
         <div class="subtitle white">
             <h3> Scopri le curiosità</h3>
         </div>
-        <div class="contenitore">
+        <div class="contenitore2">
             <div class="badge7" data-label="Benessere">
                 <div>
                     <a href="datteri.html">
