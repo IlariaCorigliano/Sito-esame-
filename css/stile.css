@@ -1161,8 +1161,17 @@ div.pannello h2{
 @media (max-width: 600px) {
     main {
         max-width: 400px;
-        margin: auto;
     }
+
+    .contenitore, .contenitore2, .card-index {
+        max-width: 300px;
+        margin: 32px 10px;
+    }
+
+    .contenitore img, .contenitore2 img, .card-index img {
+        height: 200px;
+    }
+
 
     .testo .testo2{
         max-width: 400px;
@@ -1176,9 +1185,9 @@ div.pannello h2{
         font-size: 32px;
     }
 
-    .mappa img .piantina img {
+    .mappa img {
         width: 350px;
-        margin: auto;
+        padding-bottom: 24px;
     }
 
     .marchio {
@@ -1189,23 +1198,34 @@ div.pannello h2{
 @media (max-width: 300px) {
     main {
         max-width: 200px;
-        margin: auto;
+    }
+
+    .contenitore, .contenitore2 {
+        max-width: 200px;
+        margin: 32px 16px;
+    }
+
+    .card-index {
+        max-width: 100px;
+        margin: 32px 16px;
     }
 
     .testo .testo2{
-        max-width: 150px;
-    }
-
-    .card-index .contenitore, .contenitore2 {
-        max-width: 200px;
+        max-width: 100px;
     }
 
     .mappa img {
-        width: 250px;
-        height: 50;
+        width: 150px;
         padding-bottom: 24px;
     }
 
+    .map img {
+        width: 300px;
+        height: 300px;
+    }
 
+    .flex div p {
+        max-width: 200px;
+    }
     
 }
