@@ -1127,7 +1127,7 @@ div.pannello h2{
         transform: rotate(-45deg);
     }
 
-    .mappa img .piantina img{
+    .mappa img {
         width: 500px;
     }
 
