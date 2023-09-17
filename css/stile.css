@@ -441,10 +441,11 @@ main {
     display: flex;
     margin: 24px auto;
     justify-content: center;
+    
 }
 
 .piantina img{
-    width: 100%;
+    width: 500px;
     height: auto;
     margin-bottom: 40px;
 }
