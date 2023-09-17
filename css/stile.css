@@ -625,6 +625,15 @@ footer a:hover {
     color: #214B69; 
 }
 
+.subtitle-gallery{
+    font-size: 18pt; 
+    font-family: 'Outfit', sans-serif;
+    color: #214B69;
+    margin-left: 100px;
+    margin-bottom: 24px;
+    
+}
+
 
 .sottotitoli-curiosità{
     font-size: 18pt; 
