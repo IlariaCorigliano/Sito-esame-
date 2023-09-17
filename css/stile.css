@@ -1193,6 +1193,10 @@ div.pannello h2{
     .marchio {
         font-size: 20px;
     }
+
+    .subnav-content a {
+        margin: 8px;
+    }
 }
 
 @media (max-width: 300px) {
@@ -1224,7 +1228,7 @@ div.pannello h2{
         height: 300px;
     }
 
-    .flex div p {
+    .flex div {
         max-width: 200px;
     }
     
