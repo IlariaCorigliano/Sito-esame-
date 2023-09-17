@@ -518,6 +518,7 @@ main {
     margin: 24px auto ;
     line-height: 1.5; 
     font-family: 'Inter', sans-serif;
+    padding: 20px;
 }
 
 .testo h3, .testo2 h3{
@@ -835,6 +836,10 @@ div.pannello h2{
     color: #B5B910;
     justify-content: center;
     
+}
+
+.flex p{
+    padding: 60px;
 }
 
 .gallery, .gallery2{
