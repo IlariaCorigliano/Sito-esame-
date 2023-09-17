@@ -456,6 +456,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
     margin: 32px 24px;
+    justify-content: center;
 }
 
 
