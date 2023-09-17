@@ -423,9 +423,9 @@ main {
 
 
 .mappa img {
-    display:block;
     margin: 24px auto 32px;
     margin-bottom: 60px;
+    width: 100%;
 }
 
 .mappa.sottotitoli {
@@ -1133,7 +1133,7 @@ div.pannello h2{
     }
 
     .mappa img {
-        width: 500px;
+        width: 100%;
     }
 
     .gallery3 {
@@ -1191,7 +1191,7 @@ div.pannello h2{
     }
 
     .mappa img {
-        width: 350px;
+        width: 100%;
         padding-bottom: 24px;
     }
 
