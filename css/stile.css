@@ -676,6 +676,7 @@ footer a:hover {
     margin: 40px auto;
     padding: 24px 48px;
 }
+
 .ingredienti ul li {
     list-style: disc;
 }
@@ -834,22 +835,19 @@ div.pannello h2{
     
 }
 
-.gallery{
+.gallery, .gallery2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 10px;
+    gap: 8px;
+    margin: auto;
    
 }
 
-.gallery2{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    margin: auto;
-}
 
 .gallery2 img {
     padding: 16px;
-    height: auto;
+    width: 400px; 
+    height:250;
     object-fit: cover;
 }
 
@@ -976,6 +974,10 @@ div.pannello h2{
         margin: auto;
     }
 
+    .contenitore, .contenitore2 {
+        max-width: 800px;
+    }
+
     .herobox-img img {
         width: 330px;
         height: 300px;
@@ -1013,19 +1015,19 @@ div.pannello h2{
         margin: 40px; 
     }
 
+
 }
  
 @media (max-width: 800px) {
     main {
-        max-width: 600px;
+        max-width: 450px;
         margin: auto;
     }
 
-    .contenitore, .contenitore2 {
-        max-width: 300px;
+    .card-index, .contenitore, .contenitore2 {
+        max-width: 400px;
     }
-
-
+    
     .herobox {
         height: 250px;
     }
@@ -1128,6 +1130,15 @@ div.pannello h2{
     .mappa img {
         width: 500px;
     }
+
+    .gallery3 {
+        margin: auto;
+    }
+
+    .gallery3 img {
+        width: 450px;
+        height: 375px;
+    }
     
 }
 
@@ -1149,7 +1160,7 @@ div.pannello h2{
 
 @media (max-width: 600px) {
     main {
-        max-width: 300px;
+        max-width: 400px;
         margin: auto;
     }
 
@@ -1173,4 +1184,28 @@ div.pannello h2{
     .marchio {
         font-size: 20px;
     }
+}
+
+@media (max-width: 300px) {
+    main {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .testo .testo2{
+        max-width: 150px;
+    }
+
+    .card-index .contenitore, .contenitore2 {
+        max-width: 200px;
+    }
+
+    .mappa img {
+        width: 250px;
+        height: 50;
+        padding-bottom: 24px;
+    }
+
+
+    
 }
