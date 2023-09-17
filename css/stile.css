@@ -860,22 +860,13 @@ div.pannello h2{
     object-fit: cover;
 }
 
-.flex2 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    gap: 24px;
-    justify-content: center;
-}
-
-.flex{
+.flex {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: auto;
     gap: 24px;
     justify-content: center;
 }
-   
 
 .flex div h3{
     text-align: center;
